@@ -1,0 +1,847 @@
+<sedonaComposite recursive="1">
+  <schema>
+    <kit checksum="c3752200" name="sys"/>
+  </schema>
+  <composite>
+    <prop value="8" name="width"/>
+    <prop value="2" name="baseX"/>
+    <prop value="6" name="baseY"/>
+    <prop value="11" name="height"/>
+    <comp origName="BACNET" refId="32" type="sys::Folder">
+      <prop refId="0" value="34209793" name="meta"/>
+      <comp origName="BV21" refId="33" type="easyioBacnet::BinaryValue">
+        <prop refId="0" value="33685505" name="meta"/>
+        <prop refId="1" value="Off" name="in"/>
+        <prop refId="3" value="1021" name="objectId"/>
+      </comp>
+      <comp origName="BV22" refId="34" type="easyioBacnet::BinaryValue">
+        <prop refId="0" value="184680449" name="meta"/>
+        <prop refId="1" value="Off" name="in"/>
+        <prop refId="3" value="1022" name="objectId"/>
+      </comp>
+      <comp origName="BV23" refId="35" type="easyioBacnet::BinaryValue">
+        <prop refId="0" value="335675393" name="meta"/>
+        <prop refId="1" value="Off" name="in"/>
+        <prop refId="3" value="1023" name="objectId"/>
+      </comp>
+      <comp origName="BV24" refId="36" type="easyioBacnet::BinaryValue">
+        <prop refId="0" value="486670337" name="meta"/>
+        <prop refId="1" value="Off" name="in"/>
+        <prop refId="3" value="1024" name="objectId"/>
+      </comp>
+      <comp origName="BV25" refId="37" type="easyioBacnet::BinaryValue">
+        <prop refId="0" value="34209793" name="meta"/>
+        <prop refId="1" value="Off" name="in"/>
+        <prop refId="3" value="1025" name="objectId"/>
+      </comp>
+      <comp origName="BV26" refId="38" type="easyioBacnet::BinaryValue">
+        <prop refId="0" value="185204737" name="meta"/>
+        <prop refId="1" value="Off" name="in"/>
+        <prop refId="3" value="1026" name="objectId"/>
+      </comp>
+      <comp origName="BV27" refId="39" type="easyioBacnet::BinaryValue">
+        <prop refId="0" value="336199681" name="meta"/>
+        <prop refId="1" value="Off" name="in"/>
+        <prop refId="3" value="1027" name="objectId"/>
+      </comp>
+      <comp origName="BV28" refId="40" type="easyioBacnet::BinaryValue">
+        <prop refId="0" value="487194625" name="meta"/>
+        <prop refId="1" value="Off" name="in"/>
+        <prop refId="3" value="1028" name="objectId"/>
+      </comp>
+      <comp origName="AV29" refId="41" type="easyioBacnet::AnalogValue">
+        <prop refId="0" value="34799617" name="meta"/>
+        <prop refId="1" value="-24.88" name="in"/>
+        <prop refId="3" value="0.00" name="cov"/>
+        <prop refId="4" value="1029" name="objectId"/>
+      </comp>
+      <comp origName="AV30" refId="42" type="easyioBacnet::AnalogValue">
+        <prop refId="0" value="185794561" name="meta"/>
+        <prop refId="1" value="0.00" name="in"/>
+        <prop refId="3" value="0.00" name="cov"/>
+        <prop refId="4" value="1030" name="objectId"/>
+      </comp>
+      <comp origName="AV31" refId="43" type="easyioBacnet::AnalogValue">
+        <prop refId="0" value="336789505" name="meta"/>
+        <prop refId="1" value="0.00" name="in"/>
+        <prop refId="3" value="0.00" name="cov"/>
+        <prop refId="4" value="1031" name="objectId"/>
+      </comp>
+      <comp origName="AV32" refId="44" type="easyioBacnet::AnalogValue">
+        <prop refId="0" value="487784449" name="meta"/>
+        <prop refId="1" value="0.00" name="in"/>
+        <prop refId="3" value="0.00" name="cov"/>
+        <prop refId="4" value="1032" name="objectId"/>
+      </comp>
+      <comp origName="AV33" refId="45" type="easyioBacnet::AnalogValue">
+        <prop refId="0" value="638779393" name="meta"/>
+        <prop refId="1" value="0.00" name="in"/>
+        <prop refId="3" value="0.00" name="cov"/>
+        <prop refId="4" value="1033" name="objectId"/>
+      </comp>
+      <comp origName="AV34" refId="46" type="easyioBacnet::AnalogValue">
+        <prop refId="0" value="789774337" name="meta"/>
+        <prop refId="1" value="0.00" name="in"/>
+        <prop refId="3" value="0.00" name="cov"/>
+        <prop refId="4" value="1034" name="objectId"/>
+      </comp>
+      <comp origName="AV35" refId="47" type="easyioBacnet::AnalogValue">
+        <prop refId="0" value="940769281" name="meta"/>
+        <prop refId="1" value="0.00" name="in"/>
+        <prop refId="3" value="0.00" name="cov"/>
+        <prop refId="4" value="1035" name="objectId"/>
+      </comp>
+      <comp origName="AV36" refId="48" type="easyioBacnet::AnalogValue">
+        <prop refId="0" value="1091764225" name="meta"/>
+        <prop refId="1" value="0.00" name="in"/>
+        <prop refId="3" value="0.00" name="cov"/>
+        <prop refId="4" value="1036" name="objectId"/>
+      </comp>
+      <comp origName="BV37" refId="49" type="easyioBacnet::BinaryValueRW">
+        <prop refId="0" value="35389441" name="meta"/>
+        <prop refId="3" value="true" name="loadLastValue"/>
+        <prop refId="4" value="2037" name="objectId"/>
+        <prop refId="5" value="Off" name="in"/>
+      </comp>
+      <comp origName="BV38" refId="50" type="easyioBacnet::BinaryValueRW">
+        <prop refId="0" value="186384385" name="meta"/>
+        <prop refId="3" value="true" name="loadLastValue"/>
+        <prop refId="4" value="2038" name="objectId"/>
+        <prop refId="5" value="Off" name="in"/>
+      </comp>
+      <comp origName="BV39" refId="51" type="easyioBacnet::BinaryValueRW">
+        <prop refId="0" value="337379329" name="meta"/>
+        <prop refId="3" value="true" name="loadLastValue"/>
+        <prop refId="4" value="2039" name="objectId"/>
+        <prop refId="5" value="Off" name="in"/>
+      </comp>
+      <comp origName="BV40" refId="52" type="easyioBacnet::BinaryValueRW">
+        <prop refId="0" value="488374273" name="meta"/>
+        <prop refId="3" value="true" name="loadLastValue"/>
+        <prop refId="4" value="2040" name="objectId"/>
+        <prop refId="5" value="Off" name="in"/>
+      </comp>
+      <comp origName="BV41" refId="53" type="easyioBacnet::BinaryValueRW">
+        <prop refId="0" value="639369217" name="meta"/>
+        <prop refId="3" value="true" name="loadLastValue"/>
+        <prop refId="4" value="2041" name="objectId"/>
+        <prop refId="5" value="Off" name="in"/>
+      </comp>
+      <comp origName="BV42" refId="54" type="easyioBacnet::BinaryValueRW">
+        <prop refId="0" value="790364161" name="meta"/>
+        <prop refId="3" value="true" name="loadLastValue"/>
+        <prop refId="4" value="2042" name="objectId"/>
+        <prop refId="5" value="Off" name="in"/>
+      </comp>
+      <comp origName="BV43" refId="55" type="easyioBacnet::BinaryValueRW">
+        <prop refId="0" value="941359105" name="meta"/>
+        <prop refId="3" value="true" name="loadLastValue"/>
+        <prop refId="4" value="2043" name="objectId"/>
+        <prop refId="5" value="Off" name="in"/>
+      </comp>
+      <comp origName="BV44" refId="56" type="easyioBacnet::BinaryValueRW">
+        <prop refId="0" value="1092354049" name="meta"/>
+        <prop refId="3" value="true" name="loadLastValue"/>
+        <prop refId="4" value="2044" name="objectId"/>
+        <prop refId="5" value="Off" name="in"/>
+      </comp>
+      <comp origName="AV45" refId="57" type="easyioBacnet::AnalogValueRW">
+        <prop refId="0" value="35979265" name="meta"/>
+        <prop refId="3" value="true" name="loadLastValue"/>
+        <prop refId="4" value="0.00" name="cov"/>
+        <prop refId="5" value="2045" name="objectId"/>
+        <prop refId="6" value="0.00" name="in"/>
+      </comp>
+      <comp origName="AV46" refId="58" type="easyioBacnet::AnalogValueRW">
+        <prop refId="0" value="186974209" name="meta"/>
+        <prop refId="3" value="true" name="loadLastValue"/>
+        <prop refId="4" value="0.00" name="cov"/>
+        <prop refId="5" value="2046" name="objectId"/>
+        <prop refId="6" value="0.00" name="in"/>
+      </comp>
+      <comp origName="AV47" refId="59" type="easyioBacnet::AnalogValueRW">
+        <prop refId="0" value="337969153" name="meta"/>
+        <prop refId="3" value="true" name="loadLastValue"/>
+        <prop refId="4" value="0.00" name="cov"/>
+        <prop refId="5" value="2047" name="objectId"/>
+        <prop refId="6" value="0.00" name="in"/>
+      </comp>
+      <comp origName="AV48" refId="60" type="easyioBacnet::AnalogValueRW">
+        <prop refId="0" value="488964097" name="meta"/>
+        <prop refId="3" value="true" name="loadLastValue"/>
+        <prop refId="4" value="0.00" name="cov"/>
+        <prop refId="5" value="2048" name="objectId"/>
+        <prop refId="6" value="0.00" name="in"/>
+      </comp>
+      <comp origName="BV49" refId="61" type="easyioBacnet::BinaryValue">
+        <prop refId="0" value="36503553" name="meta"/>
+        <prop refId="1" value="Off" name="in"/>
+        <prop refId="3" value="1049" name="objectId"/>
+      </comp>
+      <comp origName="BV50" refId="62" type="easyioBacnet::BinaryValue">
+        <prop refId="0" value="187498497" name="meta"/>
+        <prop refId="1" value="Off" name="in"/>
+        <prop refId="3" value="1050" name="objectId"/>
+      </comp>
+      <comp origName="SetPt" refId="72" type="easyioBacnet::AnalogValueRW">
+        <prop refId="0" value="338493441" name="meta"/>
+        <prop refId="3" value="true" name="loadLastValue"/>
+        <prop refId="4" value="0.00" name="cov"/>
+        <prop refId="5" value="2056" name="objectId"/>
+        <prop refId="6" value="10.00" name="in"/>
+      </comp>
+    </comp>
+    <comp origName="LOGIC" refId="67" type="sys::Folder">
+      <prop refId="0" value="34471937" name="meta"/>
+      <comp origName="JF_B_5" refId="73" type="sys::Folder">
+        <prop refId="0" value="50528257" name="meta"/>
+        <comp origName="Cmpr" refId="78" type="control::Cmpr">
+          <prop refId="0" value="252313601" name="meta"/>
+          <prop refId="4" value="-24.88" type="runtime" name="x"/>
+          <prop refId="5" value="10.00" type="runtime" name="y"/>
+        </comp>
+        <comp origName="DailySc" refId="79" type="basicSchedule::DailyScheduleBool">
+          <prop refId="0" value="253100033" name="meta"/>
+          <prop refId="1" value="301" name="start1"/>
+          <prop refId="2" value="1140" name="dur1"/>
+          <prop refId="3" value="0" name="start2"/>
+          <prop refId="4" value="300" name="dur2"/>
+          <prop refId="5" value="true" name="val1"/>
+          <prop refId="6" value="false" name="val2"/>
+          <prop refId="7" value="false" name="defVal"/>
+          <prop refId="8" value="true" type="runtime" name="out"/>
+        </comp>
+        <comp origName="BV37" refId="80" type="control::And2">
+          <prop refId="0" value="437387265" name="meta"/>
+          <prop refId="2" value="false" type="runtime" name="in1"/>
+          <prop refId="3" value="true" type="runtime" name="in2"/>
+        </comp>
+        <comp origName="SetPt" refId="68" type="control::WriteFloat">
+          <prop refId="0" value="34406401" name="meta"/>
+          <prop refId="1" value="10.00" name="in"/>
+        </comp>
+      </comp>
+      <comp origName="JF_B_6" refId="74" type="sys::Folder">
+        <prop refId="0" value="50790401" name="meta"/>
+        <comp origName="Cmpr" refId="83" type="control::Cmpr">
+          <prop refId="0" value="201981953" name="meta"/>
+          <prop refId="4" value="-24.88" type="runtime" name="x"/>
+          <prop refId="5" value="10.00" type="runtime" name="y"/>
+        </comp>
+        <comp origName="DailySc" refId="84" type="basicSchedule::DailyScheduleBool">
+          <prop refId="0" value="202768385" name="meta"/>
+          <prop refId="1" value="301" name="start1"/>
+          <prop refId="2" value="1140" name="dur1"/>
+          <prop refId="3" value="0" name="start2"/>
+          <prop refId="4" value="300" name="dur2"/>
+          <prop refId="5" value="true" name="val1"/>
+          <prop refId="6" value="false" name="val2"/>
+          <prop refId="7" value="false" name="defVal"/>
+          <prop refId="8" value="true" type="runtime" name="out"/>
+        </comp>
+        <comp origName="BV38" refId="85" type="control::And2">
+          <prop refId="0" value="387055617" name="meta"/>
+          <prop refId="2" value="false" type="runtime" name="in1"/>
+          <prop refId="3" value="true" type="runtime" name="in2"/>
+        </comp>
+        <comp origName="SetPt" refId="69" type="control::WriteFloat">
+          <prop refId="0" value="34406401" name="meta"/>
+          <prop refId="1" value="10.00" name="in"/>
+        </comp>
+      </comp>
+      <comp origName="JF_B_9" refId="75" type="sys::Folder">
+        <prop refId="0" value="51118081" name="meta"/>
+        <comp origName="Cmpr" refId="87" type="control::Cmpr">
+          <prop refId="0" value="235732993" name="meta"/>
+          <prop refId="4" value="-24.88" type="runtime" name="x"/>
+          <prop refId="5" value="10.00" type="runtime" name="y"/>
+        </comp>
+        <comp origName="DailySc" refId="89" type="basicSchedule::DailyScheduleBool">
+          <prop refId="0" value="236519425" name="meta"/>
+          <prop refId="1" value="301" name="start1"/>
+          <prop refId="2" value="1140" name="dur1"/>
+          <prop refId="3" value="0" name="start2"/>
+          <prop refId="4" value="300" name="dur2"/>
+          <prop refId="5" value="true" name="val1"/>
+          <prop refId="6" value="false" name="val2"/>
+          <prop refId="7" value="false" name="defVal"/>
+          <prop refId="8" value="true" type="runtime" name="out"/>
+        </comp>
+        <comp origName="BV39" refId="91" type="control::And2">
+          <prop refId="0" value="437583873" name="meta"/>
+          <prop refId="2" value="false" type="runtime" name="in1"/>
+          <prop refId="3" value="true" type="runtime" name="in2"/>
+        </comp>
+        <comp origName="SetPt" refId="70" type="control::WriteFloat">
+          <prop refId="0" value="51380225" name="meta"/>
+          <prop refId="1" value="10.00" name="in"/>
+        </comp>
+      </comp>
+      <comp origName="JF_B_10" refId="76" type="sys::Folder">
+        <prop refId="0" value="51380225" name="meta"/>
+        <comp origName="Cmpr" refId="92" type="control::Cmpr">
+          <prop refId="0" value="201981953" name="meta"/>
+          <prop refId="4" value="-24.88" type="runtime" name="x"/>
+          <prop refId="5" value="10.00" type="runtime" name="y"/>
+        </comp>
+        <comp origName="DailySc" refId="94" type="basicSchedule::DailyScheduleBool">
+          <prop refId="0" value="202768385" name="meta"/>
+          <prop refId="1" value="301" name="start1"/>
+          <prop refId="2" value="1140" name="dur1"/>
+          <prop refId="3" value="0" name="start2"/>
+          <prop refId="4" value="300" name="dur2"/>
+          <prop refId="5" value="true" name="val1"/>
+          <prop refId="6" value="false" name="val2"/>
+          <prop refId="7" value="false" name="defVal"/>
+          <prop refId="8" value="true" type="runtime" name="out"/>
+        </comp>
+        <comp origName="BV40" refId="96" type="control::And2">
+          <prop refId="0" value="387055617" name="meta"/>
+          <prop refId="2" value="false" type="runtime" name="in1"/>
+          <prop refId="3" value="true" type="runtime" name="in2"/>
+        </comp>
+        <comp origName="SetPt" refId="71" type="control::WriteFloat">
+          <prop refId="0" value="34406401" name="meta"/>
+          <prop refId="1" value="10.00" name="in"/>
+        </comp>
+      </comp>
+    </comp>
+    <comp origName="EasyIO" refId="10" type="sys::Folder">
+      <prop refId="0" value="33947649" name="meta"/>
+      <comp origName="DI1" refId="7" type="easyio30p::DigitalInput">
+        <prop refId="0" value="50724865" name="meta"/>
+        <prop refId="2" value="DI1" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+      </comp>
+      <comp origName="DI2" refId="8" type="easyio30p::DigitalInput">
+        <prop refId="0" value="235274241" name="meta"/>
+        <prop refId="2" value="DI2" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+      </comp>
+      <comp origName="DI3" refId="9" type="easyio30p::DigitalInput">
+        <prop refId="0" value="419823617" name="meta"/>
+        <prop refId="2" value="DI3" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+      </comp>
+      <comp origName="DI4" refId="11" type="easyio30p::DigitalInput">
+        <prop refId="0" value="604372993" name="meta"/>
+        <prop refId="2" value="DI4" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+      </comp>
+      <comp origName="DI5" refId="12" type="easyio30p::DigitalInput">
+        <prop refId="0" value="51052545" name="meta"/>
+        <prop refId="2" value="DI5" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+      </comp>
+      <comp origName="DI6" refId="13" type="easyio30p::DigitalInput">
+        <prop refId="0" value="235601921" name="meta"/>
+        <prop refId="2" value="DI6" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+      </comp>
+      <comp origName="DI7" refId="14" type="easyio30p::DigitalInput">
+        <prop refId="0" value="420151297" name="meta"/>
+        <prop refId="2" value="DI7" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+      </comp>
+      <comp origName="DI8" refId="15" type="easyio30p::DigitalInput">
+        <prop refId="0" value="604700673" name="meta"/>
+        <prop refId="2" value="DI8" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+      </comp>
+      <comp origName="DO1" refId="16" type="easyio30p::DigitalOutput">
+        <prop refId="0" value="51576833" name="meta"/>
+        <prop refId="2" value="DO1" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+        <prop refId="4" value="0" name="minOnTime"/>
+        <prop refId="5" value="0" name="minOffTime"/>
+        <prop refId="6" value="0" name="interDelay"/>
+        <prop refId="7" value="null" name="in1"/>
+        <prop refId="8" value="null" name="in2"/>
+        <prop refId="9" value="null" name="in3"/>
+        <prop refId="10" value="null" name="in4"/>
+        <prop refId="11" value="null" name="in5"/>
+        <prop refId="12" value="null" name="in6"/>
+        <prop refId="13" value="null" name="in7"/>
+        <prop refId="14" value="null" name="in8"/>
+        <prop refId="15" value="null" name="in9"/>
+        <prop refId="16" value="Off" name="in10"/>
+        <prop refId="17" value="null" name="in11"/>
+        <prop refId="18" value="null" name="in12"/>
+        <prop refId="19" value="null" name="in13"/>
+        <prop refId="20" value="null" name="in14"/>
+        <prop refId="21" value="null" name="in15"/>
+        <prop refId="22" value="null" name="in16"/>
+        <prop refId="23" value="Off" name="relinquishDefault"/>
+      </comp>
+      <comp origName="DO2" refId="17" type="easyio30p::DigitalOutput">
+        <prop refId="0" value="202571777" name="meta"/>
+        <prop refId="2" value="DO2" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+        <prop refId="4" value="0" name="minOnTime"/>
+        <prop refId="5" value="0" name="minOffTime"/>
+        <prop refId="6" value="0" name="interDelay"/>
+        <prop refId="7" value="null" name="in1"/>
+        <prop refId="8" value="null" name="in2"/>
+        <prop refId="9" value="null" name="in3"/>
+        <prop refId="10" value="null" name="in4"/>
+        <prop refId="11" value="null" name="in5"/>
+        <prop refId="12" value="null" name="in6"/>
+        <prop refId="13" value="null" name="in7"/>
+        <prop refId="14" value="null" name="in8"/>
+        <prop refId="15" value="null" name="in9"/>
+        <prop refId="16" value="Off" name="in10"/>
+        <prop refId="17" value="null" name="in11"/>
+        <prop refId="18" value="null" name="in12"/>
+        <prop refId="19" value="null" name="in13"/>
+        <prop refId="20" value="null" name="in14"/>
+        <prop refId="21" value="null" name="in15"/>
+        <prop refId="22" value="null" name="in16"/>
+        <prop refId="23" value="Off" name="relinquishDefault"/>
+      </comp>
+      <comp origName="DO3" refId="18" type="easyio30p::DigitalOutput">
+        <prop refId="0" value="353566721" name="meta"/>
+        <prop refId="2" value="DO3" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+        <prop refId="4" value="0" name="minOnTime"/>
+        <prop refId="5" value="0" name="minOffTime"/>
+        <prop refId="6" value="0" name="interDelay"/>
+        <prop refId="7" value="null" name="in1"/>
+        <prop refId="8" value="null" name="in2"/>
+        <prop refId="9" value="null" name="in3"/>
+        <prop refId="10" value="null" name="in4"/>
+        <prop refId="11" value="null" name="in5"/>
+        <prop refId="12" value="null" name="in6"/>
+        <prop refId="13" value="null" name="in7"/>
+        <prop refId="14" value="null" name="in8"/>
+        <prop refId="15" value="null" name="in9"/>
+        <prop refId="16" value="Off" name="in10"/>
+        <prop refId="17" value="null" name="in11"/>
+        <prop refId="18" value="null" name="in12"/>
+        <prop refId="19" value="null" name="in13"/>
+        <prop refId="20" value="null" name="in14"/>
+        <prop refId="21" value="null" name="in15"/>
+        <prop refId="22" value="null" name="in16"/>
+        <prop refId="23" value="Off" name="relinquishDefault"/>
+      </comp>
+      <comp origName="DO4" refId="19" type="easyio30p::DigitalOutput">
+        <prop refId="0" value="504561665" name="meta"/>
+        <prop refId="2" value="DO4" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+        <prop refId="4" value="0" name="minOnTime"/>
+        <prop refId="5" value="0" name="minOffTime"/>
+        <prop refId="6" value="0" name="interDelay"/>
+        <prop refId="7" value="null" name="in1"/>
+        <prop refId="8" value="null" name="in2"/>
+        <prop refId="9" value="null" name="in3"/>
+        <prop refId="10" value="null" name="in4"/>
+        <prop refId="11" value="null" name="in5"/>
+        <prop refId="12" value="null" name="in6"/>
+        <prop refId="13" value="null" name="in7"/>
+        <prop refId="14" value="null" name="in8"/>
+        <prop refId="15" value="null" name="in9"/>
+        <prop refId="16" value="Off" name="in10"/>
+        <prop refId="17" value="null" name="in11"/>
+        <prop refId="18" value="null" name="in12"/>
+        <prop refId="19" value="null" name="in13"/>
+        <prop refId="20" value="null" name="in14"/>
+        <prop refId="21" value="null" name="in15"/>
+        <prop refId="22" value="null" name="in16"/>
+        <prop refId="23" value="Off" name="relinquishDefault"/>
+      </comp>
+      <comp origName="DO5" refId="20" type="easyio30p::DigitalOutput">
+        <prop refId="0" value="655556609" name="meta"/>
+        <prop refId="2" value="DO5" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+        <prop refId="4" value="0" name="minOnTime"/>
+        <prop refId="5" value="0" name="minOffTime"/>
+        <prop refId="6" value="0" name="interDelay"/>
+        <prop refId="7" value="null" name="in1"/>
+        <prop refId="8" value="null" name="in2"/>
+        <prop refId="9" value="null" name="in3"/>
+        <prop refId="10" value="null" name="in4"/>
+        <prop refId="11" value="null" name="in5"/>
+        <prop refId="12" value="null" name="in6"/>
+        <prop refId="13" value="null" name="in7"/>
+        <prop refId="14" value="null" name="in8"/>
+        <prop refId="15" value="null" name="in9"/>
+        <prop refId="16" value="Off" name="in10"/>
+        <prop refId="17" value="null" name="in11"/>
+        <prop refId="18" value="null" name="in12"/>
+        <prop refId="19" value="null" name="in13"/>
+        <prop refId="20" value="null" name="in14"/>
+        <prop refId="21" value="null" name="in15"/>
+        <prop refId="22" value="null" name="in16"/>
+        <prop refId="23" value="Off" name="relinquishDefault"/>
+      </comp>
+      <comp origName="DO6" refId="21" type="easyio30p::DigitalOutput">
+        <prop refId="0" value="806551553" name="meta"/>
+        <prop refId="2" value="DO6" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+        <prop refId="4" value="0" name="minOnTime"/>
+        <prop refId="5" value="0" name="minOffTime"/>
+        <prop refId="6" value="0" name="interDelay"/>
+        <prop refId="7" value="null" name="in1"/>
+        <prop refId="8" value="null" name="in2"/>
+        <prop refId="9" value="null" name="in3"/>
+        <prop refId="10" value="null" name="in4"/>
+        <prop refId="11" value="null" name="in5"/>
+        <prop refId="12" value="null" name="in6"/>
+        <prop refId="13" value="null" name="in7"/>
+        <prop refId="14" value="null" name="in8"/>
+        <prop refId="15" value="null" name="in9"/>
+        <prop refId="16" value="Off" name="in10"/>
+        <prop refId="17" value="null" name="in11"/>
+        <prop refId="18" value="null" name="in12"/>
+        <prop refId="19" value="null" name="in13"/>
+        <prop refId="20" value="null" name="in14"/>
+        <prop refId="21" value="null" name="in15"/>
+        <prop refId="22" value="null" name="in16"/>
+        <prop refId="23" value="Off" name="relinquishDefault"/>
+      </comp>
+      <comp origName="DO7" refId="22" type="easyio30p::DigitalOutput">
+        <prop refId="0" value="957546497" name="meta"/>
+        <prop refId="2" value="DO7" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+        <prop refId="4" value="0" name="minOnTime"/>
+        <prop refId="5" value="0" name="minOffTime"/>
+        <prop refId="6" value="0" name="interDelay"/>
+        <prop refId="7" value="null" name="in1"/>
+        <prop refId="8" value="null" name="in2"/>
+        <prop refId="9" value="null" name="in3"/>
+        <prop refId="10" value="null" name="in4"/>
+        <prop refId="11" value="null" name="in5"/>
+        <prop refId="12" value="null" name="in6"/>
+        <prop refId="13" value="null" name="in7"/>
+        <prop refId="14" value="null" name="in8"/>
+        <prop refId="15" value="null" name="in9"/>
+        <prop refId="16" value="Off" name="in10"/>
+        <prop refId="17" value="null" name="in11"/>
+        <prop refId="18" value="null" name="in12"/>
+        <prop refId="19" value="null" name="in13"/>
+        <prop refId="20" value="null" name="in14"/>
+        <prop refId="21" value="null" name="in15"/>
+        <prop refId="22" value="null" name="in16"/>
+        <prop refId="23" value="Off" name="relinquishDefault"/>
+      </comp>
+      <comp origName="DO8" refId="23" type="easyio30p::DigitalOutput">
+        <prop refId="0" value="1108541441" name="meta"/>
+        <prop refId="2" value="DO8" name="channel"/>
+        <prop refId="3" value="false" name="reversePolarity"/>
+        <prop refId="4" value="0" name="minOnTime"/>
+        <prop refId="5" value="0" name="minOffTime"/>
+        <prop refId="6" value="0" name="interDelay"/>
+        <prop refId="7" value="null" name="in1"/>
+        <prop refId="8" value="null" name="in2"/>
+        <prop refId="9" value="null" name="in3"/>
+        <prop refId="10" value="null" name="in4"/>
+        <prop refId="11" value="null" name="in5"/>
+        <prop refId="12" value="null" name="in6"/>
+        <prop refId="13" value="null" name="in7"/>
+        <prop refId="14" value="null" name="in8"/>
+        <prop refId="15" value="null" name="in9"/>
+        <prop refId="16" value="Off" name="in10"/>
+        <prop refId="17" value="null" name="in11"/>
+        <prop refId="18" value="null" name="in12"/>
+        <prop refId="19" value="null" name="in13"/>
+        <prop refId="20" value="null" name="in14"/>
+        <prop refId="21" value="null" name="in15"/>
+        <prop refId="22" value="null" name="in16"/>
+        <prop refId="23" value="Off" name="relinquishDefault"/>
+      </comp>
+      <comp origName="AI1" refId="24" type="easyio30p::AnalogInput">
+        <prop refId="0" value="52232193" name="meta"/>
+        <prop refId="3" value="UI1" name="channel"/>
+        <prop refId="4" value="current4to20mA" name="inputType"/>
+        <prop refId="5" value="0.00" name="scaleLow"/>
+        <prop refId="6" value="100.00" name="scaleHigh"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" name="cutOffEnable"/>
+        <prop refId="9" value="0.00" name="lowCutOff"/>
+        <prop refId="10" value="false" name="squareRoot"/>
+        <prop refId="11" value="2" name="decimalPoint"/>
+        <prop refId="12" value="1" name="tempTable"/>
+        <prop refId="13" value="55.00" name="digitalOnLevel"/>
+        <prop refId="14" value="-45.00" name="digitalOffLevel"/>
+      </comp>
+      <comp origName="AI2" refId="25" type="easyio30p::AnalogInput">
+        <prop refId="0" value="203227137" name="meta"/>
+        <prop refId="3" value="UI2" name="channel"/>
+        <prop refId="4" value="Sensor30K" name="inputType"/>
+        <prop refId="5" value="0.00" name="scaleLow"/>
+        <prop refId="6" value="100.00" name="scaleHigh"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" name="cutOffEnable"/>
+        <prop refId="9" value="0.00" name="lowCutOff"/>
+        <prop refId="10" value="false" name="squareRoot"/>
+        <prop refId="11" value="2" name="decimalPoint"/>
+        <prop refId="12" value="2" name="tempTable"/>
+        <prop refId="13" value="55.00" name="digitalOnLevel"/>
+        <prop refId="14" value="-45.00" name="digitalOffLevel"/>
+      </comp>
+      <comp origName="AI3" refId="26" type="easyio30p::AnalogInput">
+        <prop refId="0" value="354222081" name="meta"/>
+        <prop refId="3" value="UI3" name="channel"/>
+        <prop refId="4" value="Sensor30K" name="inputType"/>
+        <prop refId="5" value="0.00" name="scaleLow"/>
+        <prop refId="6" value="100.00" name="scaleHigh"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" name="cutOffEnable"/>
+        <prop refId="9" value="0.00" name="lowCutOff"/>
+        <prop refId="10" value="false" name="squareRoot"/>
+        <prop refId="11" value="2" name="decimalPoint"/>
+        <prop refId="12" value="2" name="tempTable"/>
+        <prop refId="13" value="55.00" name="digitalOnLevel"/>
+        <prop refId="14" value="-45.00" name="digitalOffLevel"/>
+      </comp>
+      <comp origName="AI4" refId="27" type="easyio30p::AnalogInput">
+        <prop refId="0" value="505217025" name="meta"/>
+        <prop refId="3" value="UI4" name="channel"/>
+        <prop refId="4" value="Sensor30K" name="inputType"/>
+        <prop refId="5" value="0.00" name="scaleLow"/>
+        <prop refId="6" value="100.00" name="scaleHigh"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" name="cutOffEnable"/>
+        <prop refId="9" value="0.00" name="lowCutOff"/>
+        <prop refId="10" value="false" name="squareRoot"/>
+        <prop refId="11" value="2" name="decimalPoint"/>
+        <prop refId="12" value="2" name="tempTable"/>
+        <prop refId="13" value="55.00" name="digitalOnLevel"/>
+        <prop refId="14" value="-45.00" name="digitalOffLevel"/>
+      </comp>
+      <comp origName="AI5" refId="28" type="easyio30p::AnalogInput">
+        <prop refId="0" value="656211969" name="meta"/>
+        <prop refId="3" value="UI5" name="channel"/>
+        <prop refId="4" value="Sensor30K" name="inputType"/>
+        <prop refId="5" value="0.00" name="scaleLow"/>
+        <prop refId="6" value="100.00" name="scaleHigh"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" name="cutOffEnable"/>
+        <prop refId="9" value="0.00" name="lowCutOff"/>
+        <prop refId="10" value="false" name="squareRoot"/>
+        <prop refId="11" value="2" name="decimalPoint"/>
+        <prop refId="12" value="2" name="tempTable"/>
+        <prop refId="13" value="55.00" name="digitalOnLevel"/>
+        <prop refId="14" value="-45.00" name="digitalOffLevel"/>
+      </comp>
+      <comp origName="AI6" refId="29" type="easyio30p::AnalogInput">
+        <prop refId="0" value="807206913" name="meta"/>
+        <prop refId="3" value="UI6" name="channel"/>
+        <prop refId="4" value="Sensor30K" name="inputType"/>
+        <prop refId="5" value="0.00" name="scaleLow"/>
+        <prop refId="6" value="100.00" name="scaleHigh"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" name="cutOffEnable"/>
+        <prop refId="9" value="0.00" name="lowCutOff"/>
+        <prop refId="10" value="false" name="squareRoot"/>
+        <prop refId="11" value="2" name="decimalPoint"/>
+        <prop refId="12" value="2" name="tempTable"/>
+        <prop refId="13" value="55.00" name="digitalOnLevel"/>
+        <prop refId="14" value="-45.00" name="digitalOffLevel"/>
+      </comp>
+      <comp origName="AI7" refId="30" type="easyio30p::AnalogInput">
+        <prop refId="0" value="958201857" name="meta"/>
+        <prop refId="3" value="UI7" name="channel"/>
+        <prop refId="4" value="Sensor30K" name="inputType"/>
+        <prop refId="5" value="0.00" name="scaleLow"/>
+        <prop refId="6" value="100.00" name="scaleHigh"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" name="cutOffEnable"/>
+        <prop refId="9" value="0.00" name="lowCutOff"/>
+        <prop refId="10" value="false" name="squareRoot"/>
+        <prop refId="11" value="2" name="decimalPoint"/>
+        <prop refId="12" value="2" name="tempTable"/>
+        <prop refId="13" value="55.00" name="digitalOnLevel"/>
+        <prop refId="14" value="-45.00" name="digitalOffLevel"/>
+      </comp>
+      <comp origName="AI8" refId="31" type="easyio30p::AnalogInput">
+        <prop refId="0" value="1109196801" name="meta"/>
+        <prop refId="3" value="UI8" name="channel"/>
+        <prop refId="4" value="Sensor30K" name="inputType"/>
+        <prop refId="5" value="0.00" name="scaleLow"/>
+        <prop refId="6" value="100.00" name="scaleHigh"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" name="cutOffEnable"/>
+        <prop refId="9" value="0.00" name="lowCutOff"/>
+        <prop refId="10" value="false" name="squareRoot"/>
+        <prop refId="11" value="2" name="decimalPoint"/>
+        <prop refId="12" value="2" name="tempTable"/>
+        <prop refId="13" value="55.00" name="digitalOnLevel"/>
+        <prop refId="14" value="-45.00" name="digitalOffLevel"/>
+      </comp>
+      <comp origName="AO1" refId="63" type="easyio30p::AnalogOutput">
+        <prop refId="0" value="52822017" name="meta"/>
+        <prop refId="3" value="AO1" name="channel"/>
+        <prop refId="4" value="0.00" name="scaleLow"/>
+        <prop refId="5" value="100.00" name="scaleHigh"/>
+        <prop refId="6" value="false" name="clampingHighEnable"/>
+        <prop refId="7" value="100.00" name="clampingHigh"/>
+        <prop refId="8" value="false" name="clampingLowEnable"/>
+        <prop refId="9" value="0.00" name="clampingLow"/>
+        <prop refId="10" value="current4to20mA" name="outputType"/>
+        <prop refId="11" value="false" name="reverseOutput"/>
+        <prop refId="12" value="false" name="squareRoot"/>
+        <prop refId="13" value="null" name="in1"/>
+        <prop refId="14" value="null" name="in2"/>
+        <prop refId="15" value="null" name="in3"/>
+        <prop refId="16" value="null" name="in4"/>
+        <prop refId="17" value="null" name="in5"/>
+        <prop refId="18" value="null" name="in6"/>
+        <prop refId="19" value="null" name="in7"/>
+        <prop refId="20" value="null" name="in8"/>
+        <prop refId="21" value="null" name="in9"/>
+        <prop refId="22" value="0.00" name="in10"/>
+        <prop refId="23" value="null" name="in11"/>
+        <prop refId="24" value="null" name="in12"/>
+        <prop refId="25" value="null" name="in13"/>
+        <prop refId="26" value="null" name="in14"/>
+        <prop refId="27" value="null" name="in15"/>
+        <prop refId="28" value="null" name="in16"/>
+        <prop refId="29" value="0.00" name="relinquishDefault"/>
+      </comp>
+      <comp origName="AO2" refId="64" type="easyio30p::AnalogOutput">
+        <prop refId="0" value="203816961" name="meta"/>
+        <prop refId="3" value="AO2" name="channel"/>
+        <prop refId="4" value="0.00" name="scaleLow"/>
+        <prop refId="5" value="100.00" name="scaleHigh"/>
+        <prop refId="6" value="false" name="clampingHighEnable"/>
+        <prop refId="7" value="100.00" name="clampingHigh"/>
+        <prop refId="8" value="false" name="clampingLowEnable"/>
+        <prop refId="9" value="0.00" name="clampingLow"/>
+        <prop refId="10" value="current4to20mA" name="outputType"/>
+        <prop refId="11" value="false" name="reverseOutput"/>
+        <prop refId="12" value="false" name="squareRoot"/>
+        <prop refId="13" value="null" name="in1"/>
+        <prop refId="14" value="null" name="in2"/>
+        <prop refId="15" value="null" name="in3"/>
+        <prop refId="16" value="null" name="in4"/>
+        <prop refId="17" value="null" name="in5"/>
+        <prop refId="18" value="null" name="in6"/>
+        <prop refId="19" value="null" name="in7"/>
+        <prop refId="20" value="null" name="in8"/>
+        <prop refId="21" value="null" name="in9"/>
+        <prop refId="22" value="0.00" name="in10"/>
+        <prop refId="23" value="null" name="in11"/>
+        <prop refId="24" value="null" name="in12"/>
+        <prop refId="25" value="null" name="in13"/>
+        <prop refId="26" value="null" name="in14"/>
+        <prop refId="27" value="null" name="in15"/>
+        <prop refId="28" value="null" name="in16"/>
+        <prop refId="29" value="0.00" name="relinquishDefault"/>
+      </comp>
+      <comp origName="AO3" refId="65" type="easyio30p::AnalogOutput">
+        <prop refId="0" value="354811905" name="meta"/>
+        <prop refId="3" value="AO3" name="channel"/>
+        <prop refId="4" value="0.00" name="scaleLow"/>
+        <prop refId="5" value="100.00" name="scaleHigh"/>
+        <prop refId="6" value="false" name="clampingHighEnable"/>
+        <prop refId="7" value="100.00" name="clampingHigh"/>
+        <prop refId="8" value="false" name="clampingLowEnable"/>
+        <prop refId="9" value="0.00" name="clampingLow"/>
+        <prop refId="10" value="current4to20mA" name="outputType"/>
+        <prop refId="11" value="false" name="reverseOutput"/>
+        <prop refId="12" value="false" name="squareRoot"/>
+        <prop refId="13" value="null" name="in1"/>
+        <prop refId="14" value="null" name="in2"/>
+        <prop refId="15" value="null" name="in3"/>
+        <prop refId="16" value="null" name="in4"/>
+        <prop refId="17" value="null" name="in5"/>
+        <prop refId="18" value="null" name="in6"/>
+        <prop refId="19" value="null" name="in7"/>
+        <prop refId="20" value="null" name="in8"/>
+        <prop refId="21" value="null" name="in9"/>
+        <prop refId="22" value="0.00" name="in10"/>
+        <prop refId="23" value="null" name="in11"/>
+        <prop refId="24" value="null" name="in12"/>
+        <prop refId="25" value="null" name="in13"/>
+        <prop refId="26" value="null" name="in14"/>
+        <prop refId="27" value="null" name="in15"/>
+        <prop refId="28" value="null" name="in16"/>
+        <prop refId="29" value="0.00" name="relinquishDefault"/>
+      </comp>
+      <comp origName="AO4" refId="66" type="easyio30p::AnalogOutput">
+        <prop refId="0" value="505806849" name="meta"/>
+        <prop refId="3" value="AO4" name="channel"/>
+        <prop refId="4" value="0.00" name="scaleLow"/>
+        <prop refId="5" value="100.00" name="scaleHigh"/>
+        <prop refId="6" value="false" name="clampingHighEnable"/>
+        <prop refId="7" value="100.00" name="clampingHigh"/>
+        <prop refId="8" value="false" name="clampingLowEnable"/>
+        <prop refId="9" value="0.00" name="clampingLow"/>
+        <prop refId="10" value="current4to20mA" name="outputType"/>
+        <prop refId="11" value="false" name="reverseOutput"/>
+        <prop refId="12" value="false" name="squareRoot"/>
+        <prop refId="13" value="null" name="in1"/>
+        <prop refId="14" value="null" name="in2"/>
+        <prop refId="15" value="null" name="in3"/>
+        <prop refId="16" value="null" name="in4"/>
+        <prop refId="17" value="null" name="in5"/>
+        <prop refId="18" value="null" name="in6"/>
+        <prop refId="19" value="null" name="in7"/>
+        <prop refId="20" value="null" name="in8"/>
+        <prop refId="21" value="null" name="in9"/>
+        <prop refId="22" value="0.00" name="in10"/>
+        <prop refId="23" value="null" name="in11"/>
+        <prop refId="24" value="null" name="in12"/>
+        <prop refId="25" value="null" name="in13"/>
+        <prop refId="26" value="null" name="in14"/>
+        <prop refId="27" value="null" name="in15"/>
+        <prop refId="28" value="null" name="in16"/>
+        <prop refId="29" value="0.00" name="relinquishDefault"/>
+      </comp>
+    </comp>
+  </composite>
+  <links>
+    <link toRefPath="/BACNET/BV21.in" fromSlotName="easyio30p::DigitalInput.out" from="7.1" to="33.1" fromRefPath="/EasyIO/DI1.out" toSlotName="easyioBacnet::BinaryValue.in"/>
+    <link toRefPath="/BACNET/BV22.in" fromSlotName="easyio30p::DigitalInput.out" from="8.1" to="34.1" fromRefPath="/EasyIO/DI2.out" toSlotName="easyioBacnet::BinaryValue.in"/>
+    <link toRefPath="/BACNET/BV23.in" fromSlotName="easyio30p::DigitalInput.out" from="9.1" to="35.1" fromRefPath="/EasyIO/DI3.out" toSlotName="easyioBacnet::BinaryValue.in"/>
+    <link toRefPath="/BACNET/BV24.in" fromSlotName="easyio30p::DigitalInput.out" from="11.1" to="36.1" fromRefPath="/EasyIO/DI4.out" toSlotName="easyioBacnet::BinaryValue.in"/>
+    <link toRefPath="/BACNET/BV25.in" fromSlotName="easyio30p::DigitalInput.out" from="12.1" to="37.1" fromRefPath="/EasyIO/DI5.out" toSlotName="easyioBacnet::BinaryValue.in"/>
+    <link toRefPath="/BACNET/BV26.in" fromSlotName="easyio30p::DigitalInput.out" from="13.1" to="38.1" fromRefPath="/EasyIO/DI6.out" toSlotName="easyioBacnet::BinaryValue.in"/>
+    <link toRefPath="/BACNET/BV27.in" fromSlotName="easyio30p::DigitalInput.out" from="14.1" to="39.1" fromRefPath="/EasyIO/DI7.out" toSlotName="easyioBacnet::BinaryValue.in"/>
+    <link toRefPath="/BACNET/BV28.in" fromSlotName="easyio30p::DigitalInput.out" from="15.1" to="40.1" fromRefPath="/EasyIO/DI8.out" toSlotName="easyioBacnet::BinaryValue.in"/>
+    <link toRefPath="/BACNET/AV29.in" fromSlotName="easyio30p::AnalogInput.out" from="24.1" to="41.1" fromRefPath="/EasyIO/AI1.out" toSlotName="easyioBacnet::AnalogValue.in"/>
+    <link toRefPath="/LOGIC/JF_B_5/Cmpr.x" fromSlotName="easyioBacnet::AnalogValue.in" from="41.1" to="78.4" fromRefPath="/BACNET/AV29.in" toSlotName="control::Cmpr.x"/>
+    <link toRefPath="/LOGIC/JF_B_6/Cmpr.x" fromSlotName="easyioBacnet::AnalogValue.in" from="41.1" to="83.4" fromRefPath="/BACNET/AV29.in" toSlotName="control::Cmpr.x"/>
+    <link toRefPath="/LOGIC/JF_B_9/Cmpr.x" fromSlotName="easyioBacnet::AnalogValue.in" from="41.1" to="87.4" fromRefPath="/BACNET/AV29.in" toSlotName="control::Cmpr.x"/>
+    <link toRefPath="/LOGIC/JF_B_10/Cmpr.x" fromSlotName="easyioBacnet::AnalogValue.in" from="41.1" to="92.4" fromRefPath="/BACNET/AV29.in" toSlotName="control::Cmpr.x"/>
+    <link toRefPath="/BACNET/AV30.in" fromSlotName="easyio30p::AnalogInput.out" from="25.1" to="42.1" fromRefPath="/EasyIO/AI2.out" toSlotName="easyioBacnet::AnalogValue.in"/>
+    <link toRefPath="/BACNET/AV31.in" fromSlotName="easyio30p::AnalogInput.out" from="26.1" to="43.1" fromRefPath="/EasyIO/AI3.out" toSlotName="easyioBacnet::AnalogValue.in"/>
+    <link toRefPath="/BACNET/AV32.in" fromSlotName="easyio30p::AnalogInput.out" from="27.1" to="44.1" fromRefPath="/EasyIO/AI4.out" toSlotName="easyioBacnet::AnalogValue.in"/>
+    <link toRefPath="/BACNET/AV33.in" fromSlotName="easyio30p::AnalogInput.out" from="28.1" to="45.1" fromRefPath="/EasyIO/AI5.out" toSlotName="easyioBacnet::AnalogValue.in"/>
+    <link toRefPath="/BACNET/AV34.in" fromSlotName="easyio30p::AnalogInput.out" from="29.1" to="46.1" fromRefPath="/EasyIO/AI6.out" toSlotName="easyioBacnet::AnalogValue.in"/>
+    <link toRefPath="/BACNET/AV35.in" fromSlotName="easyio30p::AnalogInput.out" from="30.1" to="47.1" fromRefPath="/EasyIO/AI7.out" toSlotName="easyioBacnet::AnalogValue.in"/>
+    <link toRefPath="/BACNET/AV36.in" fromSlotName="easyio30p::AnalogInput.out" from="31.1" to="48.1" fromRefPath="/EasyIO/AI8.out" toSlotName="easyioBacnet::AnalogValue.in"/>
+    <link toRefPath="/EasyIO/DO1.in10" fromSlotName="easyioBacnet::BinaryValueRW.out" from="49.1" to="16.16" fromRefPath="/BACNET/BV37.out" toSlotName="easyio30p::DigitalOutput.in10"/>
+    <link toRefPath="/BACNET/BV37.in" fromSlotName="control::And2.out" from="80.1" to="49.5" fromRefPath="/LOGIC/JF_B_5/BV37.out" toSlotName="easyioBacnet::BinaryValueRW.in"/>
+    <link toRefPath="/EasyIO/DO2.in10" fromSlotName="easyioBacnet::BinaryValueRW.out" from="50.1" to="17.16" fromRefPath="/BACNET/BV38.out" toSlotName="easyio30p::DigitalOutput.in10"/>
+    <link toRefPath="/BACNET/BV38.in" fromSlotName="control::And2.out" from="85.1" to="50.5" fromRefPath="/LOGIC/JF_B_6/BV38.out" toSlotName="easyioBacnet::BinaryValueRW.in"/>
+    <link toRefPath="/EasyIO/DO3.in10" fromSlotName="easyioBacnet::BinaryValueRW.out" from="51.1" to="18.16" fromRefPath="/BACNET/BV39.out" toSlotName="easyio30p::DigitalOutput.in10"/>
+    <link toRefPath="/BACNET/BV39.in" fromSlotName="control::And2.out" from="91.1" to="51.5" fromRefPath="/LOGIC/JF_B_9/BV39.out" toSlotName="easyioBacnet::BinaryValueRW.in"/>
+    <link toRefPath="/EasyIO/DO4.in10" fromSlotName="easyioBacnet::BinaryValueRW.out" from="52.1" to="19.16" fromRefPath="/BACNET/BV40.out" toSlotName="easyio30p::DigitalOutput.in10"/>
+    <link toRefPath="/BACNET/BV40.in" fromSlotName="control::And2.out" from="96.1" to="52.5" fromRefPath="/LOGIC/JF_B_10/BV40.out" toSlotName="easyioBacnet::BinaryValueRW.in"/>
+    <link toRefPath="/EasyIO/DO5.in10" fromSlotName="easyioBacnet::BinaryValueRW.out" from="53.1" to="20.16" fromRefPath="/BACNET/BV41.out" toSlotName="easyio30p::DigitalOutput.in10"/>
+    <link toRefPath="/EasyIO/DO6.in10" fromSlotName="easyioBacnet::BinaryValueRW.out" from="54.1" to="21.16" fromRefPath="/BACNET/BV42.out" toSlotName="easyio30p::DigitalOutput.in10"/>
+    <link toRefPath="/EasyIO/DO7.in10" fromSlotName="easyioBacnet::BinaryValueRW.out" from="55.1" to="22.16" fromRefPath="/BACNET/BV43.out" toSlotName="easyio30p::DigitalOutput.in10"/>
+    <link toRefPath="/EasyIO/DO8.in10" fromSlotName="easyioBacnet::BinaryValueRW.out" from="56.1" to="23.16" fromRefPath="/BACNET/BV44.out" toSlotName="easyio30p::DigitalOutput.in10"/>
+    <link toRefPath="/EasyIO/AO1.in10" fromSlotName="easyioBacnet::AnalogValueRW.out" from="57.1" to="63.22" fromRefPath="/BACNET/AV45.out" toSlotName="easyio30p::AnalogOutput.in10"/>
+    <link toRefPath="/EasyIO/AO2.in10" fromSlotName="easyioBacnet::AnalogValueRW.out" from="58.1" to="64.22" fromRefPath="/BACNET/AV46.out" toSlotName="easyio30p::AnalogOutput.in10"/>
+    <link toRefPath="/EasyIO/AO3.in10" fromSlotName="easyioBacnet::AnalogValueRW.out" from="59.1" to="65.22" fromRefPath="/BACNET/AV47.out" toSlotName="easyio30p::AnalogOutput.in10"/>
+    <link toRefPath="/EasyIO/AO4.in10" fromSlotName="easyioBacnet::AnalogValueRW.out" from="60.1" to="66.22" fromRefPath="/BACNET/AV48.out" toSlotName="easyio30p::AnalogOutput.in10"/>
+    <link toRefPath="/LOGIC/JF_B_10/SetPt.in" fromSlotName="easyioBacnet::AnalogValueRW.out" from="72.1" to="71.1" fromRefPath="/BACNET/SetPt.out" toSlotName="control::WriteFloat.in"/>
+    <link toRefPath="/LOGIC/JF_B_9/SetPt.in" fromSlotName="easyioBacnet::AnalogValueRW.out" from="72.1" to="70.1" fromRefPath="/BACNET/SetPt.out" toSlotName="control::WriteFloat.in"/>
+    <link toRefPath="/LOGIC/JF_B_6/SetPt.in" fromSlotName="easyioBacnet::AnalogValueRW.out" from="72.1" to="69.1" fromRefPath="/BACNET/SetPt.out" toSlotName="control::WriteFloat.in"/>
+    <link toRefPath="/LOGIC/JF_B_5/SetPt.in" fromSlotName="easyioBacnet::AnalogValueRW.out" from="72.1" to="68.1" fromRefPath="/BACNET/SetPt.out" toSlotName="control::WriteFloat.in"/>
+    <link toRefPath="/LOGIC/JF_B_5/Cmpr.y" fromSlotName="control::WriteFloat.out" from="68.2" to="78.5" fromRefPath="/LOGIC/JF_B_5/SetPt.out" toSlotName="control::Cmpr.y"/>
+    <link toRefPath="/LOGIC/JF_B_5/BV37.in1" fromSlotName="control::Cmpr.xgy" from="78.1" to="80.2" fromRefPath="/LOGIC/JF_B_5/Cmpr.xgy" toSlotName="control::And2.in1"/>
+    <link toRefPath="/LOGIC/JF_B_5/BV37.in2" fromSlotName="basicSchedule::DailyScheduleBool.out" from="79.8" to="80.3" fromRefPath="/LOGIC/JF_B_5/DailySc.out" toSlotName="control::And2.in2"/>
+    <link toRefPath="/LOGIC/JF_B_6/Cmpr.y" fromSlotName="control::WriteFloat.out" from="69.2" to="83.5" fromRefPath="/LOGIC/JF_B_6/SetPt.out" toSlotName="control::Cmpr.y"/>
+    <link toRefPath="/LOGIC/JF_B_6/BV38.in1" fromSlotName="control::Cmpr.xgy" from="83.1" to="85.2" fromRefPath="/LOGIC/JF_B_6/Cmpr.xgy" toSlotName="control::And2.in1"/>
+    <link toRefPath="/LOGIC/JF_B_6/BV38.in2" fromSlotName="basicSchedule::DailyScheduleBool.out" from="84.8" to="85.3" fromRefPath="/LOGIC/JF_B_6/DailySc.out" toSlotName="control::And2.in2"/>
+    <link toRefPath="/LOGIC/JF_B_9/Cmpr.y" fromSlotName="control::WriteFloat.out" from="70.2" to="87.5" fromRefPath="/LOGIC/JF_B_9/SetPt.out" toSlotName="control::Cmpr.y"/>
+    <link toRefPath="/LOGIC/JF_B_9/BV39.in1" fromSlotName="control::Cmpr.xgy" from="87.1" to="91.2" fromRefPath="/LOGIC/JF_B_9/Cmpr.xgy" toSlotName="control::And2.in1"/>
+    <link toRefPath="/LOGIC/JF_B_9/BV39.in2" fromSlotName="basicSchedule::DailyScheduleBool.out" from="89.8" to="91.3" fromRefPath="/LOGIC/JF_B_9/DailySc.out" toSlotName="control::And2.in2"/>
+    <link toRefPath="/LOGIC/JF_B_10/Cmpr.y" fromSlotName="control::WriteFloat.out" from="71.2" to="92.5" fromRefPath="/LOGIC/JF_B_10/SetPt.out" toSlotName="control::Cmpr.y"/>
+    <link toRefPath="/LOGIC/JF_B_10/BV40.in1" fromSlotName="control::Cmpr.xgy" from="92.1" to="96.2" fromRefPath="/LOGIC/JF_B_10/Cmpr.xgy" toSlotName="control::And2.in1"/>
+    <link toRefPath="/LOGIC/JF_B_10/BV40.in2" fromSlotName="basicSchedule::DailyScheduleBool.out" from="94.8" to="96.3" fromRefPath="/LOGIC/JF_B_10/DailySc.out" toSlotName="control::And2.in2"/>
+  </links>
+</sedonaComposite>
