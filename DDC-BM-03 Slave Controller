@@ -1,0 +1,22 @@
+<sedonaComposite recursive="1">
+  <schema>
+    <kit checksum="df899f89" name="easyioBacnet"/>
+  </schema>
+  <composite>
+    <prop value="8" name="width"/>
+    <prop value="1" name="baseX"/>
+    <prop value="44" name="baseY"/>
+    <prop value="7" name="height"/>
+    <comp origName="AV51" refId="69" type="easyioBacnet::AnalogValueRW">
+      <prop refId="0" value="19660801" name="meta"/>
+      <prop refId="3" value="true" name="loadLastValue"/>
+      <prop refId="4" value="0.00" name="cov"/>
+      <prop refId="5" value="2051" name="objectId"/>
+      <prop refId="6" value="0.00" name="in"/>
+    </comp>
+  </composite>
+  <links>
+    <link toRefPath="/LOGIC/EF_B_05/Temp_SP.in" fromSlotName="easyioBacnet::AnalogValueRW.out" from="69.1" to="71.1" fromRefPath="/BACNET/AV51.out" toSlotName="control::WriteFloat.in"/>
+  </links>
+</sedonaComposite>
+
