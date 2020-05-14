@@ -1,0 +1,833 @@
+<sedonaComposite recursive="1">
+  <schema>
+    <kit checksum="87ff9e52" name="sys"/>
+  </schema>
+  <composite>
+    <prop value="8" name="width"/>
+    <prop value="2" name="baseX"/>
+    <prop value="6" name="baseY"/>
+    <prop value="12" name="height"/>
+    <comp origName="EasyIO" refId="11" type="sys::Folder">
+      <prop refId="0" value="33947649" name="meta"/>
+      <comp origName="UI1" refId="14" type="easyioFG::UI">
+        <prop refId="0" value="50528257" name="meta"/>
+        <prop refId="1" value="UI1" name="channel"/>
+        <prop refId="2" value="digital" name="inputType"/>
+        <prop refId="5" value="1" name="pulseOut"/>
+        <prop refId="6" value="1.00" name="scaling"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" type="runtime" name="resetPulse"/>
+      </comp>
+      <comp origName="UI2" refId="15" type="easyioFG::UI">
+        <prop refId="0" value="218300417" name="meta"/>
+        <prop refId="1" value="UI2" name="channel"/>
+        <prop refId="2" value="digital" name="inputType"/>
+        <prop refId="5" value="3" name="pulseOut"/>
+        <prop refId="6" value="1.00" name="scaling"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" type="runtime" name="resetPulse"/>
+      </comp>
+      <comp origName="UI3" refId="16" type="easyioFG::UI">
+        <prop refId="0" value="386072577" name="meta"/>
+        <prop refId="1" value="UI3" name="channel"/>
+        <prop refId="2" value="digital" name="inputType"/>
+        <prop refId="5" value="8" name="pulseOut"/>
+        <prop refId="6" value="1.00" name="scaling"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" type="runtime" name="resetPulse"/>
+      </comp>
+      <comp origName="UI4" refId="17" type="easyioFG::UI">
+        <prop refId="0" value="553844737" name="meta"/>
+        <prop refId="1" value="UI4" name="channel"/>
+        <prop refId="2" value="digital" name="inputType"/>
+        <prop refId="5" value="4" name="pulseOut"/>
+        <prop refId="6" value="1.00" name="scaling"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" type="runtime" name="resetPulse"/>
+      </comp>
+      <comp origName="UI5" refId="18" type="easyioFG::UI">
+        <prop refId="0" value="721616897" name="meta"/>
+        <prop refId="1" value="UI5" name="channel"/>
+        <prop refId="2" value="digital" name="inputType"/>
+        <prop refId="5" value="0" name="pulseOut"/>
+        <prop refId="6" value="1.00" name="scaling"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" type="runtime" name="resetPulse"/>
+      </comp>
+      <comp origName="UI6" refId="19" type="easyioFG::UI">
+        <prop refId="0" value="889389057" name="meta"/>
+        <prop refId="1" value="UI6" name="channel"/>
+        <prop refId="2" value="digital" name="inputType"/>
+        <prop refId="5" value="0" name="pulseOut"/>
+        <prop refId="6" value="1.00" name="scaling"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" type="runtime" name="resetPulse"/>
+      </comp>
+      <comp origName="UI7" refId="20" type="easyioFG::UI">
+        <prop refId="0" value="51183617" name="meta"/>
+        <prop refId="1" value="UI7" name="channel"/>
+        <prop refId="2" value="digital" name="inputType"/>
+        <prop refId="5" value="0" name="pulseOut"/>
+        <prop refId="6" value="1.00" name="scaling"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" type="runtime" name="resetPulse"/>
+      </comp>
+      <comp origName="UI8" refId="21" type="easyioFG::UI">
+        <prop refId="0" value="218955777" name="meta"/>
+        <prop refId="1" value="UI8" name="channel"/>
+        <prop refId="2" value="digital" name="inputType"/>
+        <prop refId="5" value="0" name="pulseOut"/>
+        <prop refId="6" value="1.00" name="scaling"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" type="runtime" name="resetPulse"/>
+      </comp>
+      <comp origName="UI9" refId="22" type="easyioFG::UI">
+        <prop refId="0" value="386727937" name="meta"/>
+        <prop refId="1" value="UI9" name="channel"/>
+        <prop refId="2" value="digital" name="inputType"/>
+        <prop refId="5" value="0" name="pulseOut"/>
+        <prop refId="6" value="1.00" name="scaling"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" type="runtime" name="resetPulse"/>
+      </comp>
+      <comp origName="UI10" refId="23" type="easyioFG::UI">
+        <prop refId="0" value="554500097" name="meta"/>
+        <prop refId="1" value="UI10" name="channel"/>
+        <prop refId="2" value="digital" name="inputType"/>
+        <prop refId="5" value="0" name="pulseOut"/>
+        <prop refId="6" value="1.00" name="scaling"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" type="runtime" name="resetPulse"/>
+      </comp>
+      <comp origName="UI11" refId="24" type="easyioFG::UI">
+        <prop refId="0" value="722272257" name="meta"/>
+        <prop refId="1" value="UI11" name="channel"/>
+        <prop refId="2" value="digital" name="inputType"/>
+        <prop refId="5" value="0" name="pulseOut"/>
+        <prop refId="6" value="1.00" name="scaling"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" type="runtime" name="resetPulse"/>
+      </comp>
+      <comp origName="UI12" refId="25" type="easyioFG::UI">
+        <prop refId="0" value="890044417" name="meta"/>
+        <prop refId="1" value="UI12" name="channel"/>
+        <prop refId="2" value="digital" name="inputType"/>
+        <prop refId="5" value="0" name="pulseOut"/>
+        <prop refId="6" value="1.00" name="scaling"/>
+        <prop refId="7" value="0.00" name="offset"/>
+        <prop refId="8" value="false" type="runtime" name="resetPulse"/>
+      </comp>
+      <comp origName="DO1" refId="26" type="easyioFG::DO">
+        <prop refId="0" value="51904513" name="meta"/>
+        <prop refId="1" value="DO1" name="channel"/>
+        <prop refId="3" value="Off" name="in"/>
+      </comp>
+      <comp origName="DO2" refId="27" type="easyioFG::DO">
+        <prop refId="0" value="219676673" name="meta"/>
+        <prop refId="1" value="DO2" name="channel"/>
+        <prop refId="3" value="On" name="in"/>
+      </comp>
+      <comp origName="UO1" refId="28" type="easyioFG::DO">
+        <prop refId="0" value="52428801" name="meta"/>
+        <prop refId="1" value="DO9" name="channel"/>
+        <prop refId="3" value="Off" name="in"/>
+      </comp>
+      <comp origName="UO2" refId="29" type="easyioFG::DO">
+        <prop refId="0" value="220200961" name="meta"/>
+        <prop refId="1" value="DO10" name="channel"/>
+        <prop refId="3" value="Off" name="in"/>
+      </comp>
+      <comp origName="UO3" refId="30" type="easyioFG::DO">
+        <prop refId="0" value="387973121" name="meta"/>
+        <prop refId="1" value="DO11" name="channel"/>
+        <prop refId="3" value="Off" name="in"/>
+      </comp>
+      <comp origName="UO4" refId="31" type="easyioFG::DO">
+        <prop refId="0" value="555745281" name="meta"/>
+        <prop refId="1" value="DO12" name="channel"/>
+        <prop refId="3" value="Off" name="in"/>
+      </comp>
+      <comp origName="UO5" refId="32" type="easyioFG::DO">
+        <prop refId="0" value="723517441" name="meta"/>
+        <prop refId="1" value="DO13" name="channel"/>
+        <prop refId="3" value="Off" name="in"/>
+      </comp>
+      <comp origName="UO6" refId="33" type="easyioFG::DO">
+        <prop refId="0" value="891289601" name="meta"/>
+        <prop refId="1" value="DO14" name="channel"/>
+        <prop refId="3" value="Off" name="in"/>
+      </comp>
+    </comp>
+    <comp origName="BACnet" refId="13" type="sys::Folder">
+      <prop refId="0" value="34209793" name="meta"/>
+      <comp origName="BACnetS" refId="34" type="easyioFGBacnet::BACnetService">
+        <prop refId="0" value="50397185" name="meta"/>
+        <prop refId="1" value="true" name="ipEnabled"/>
+        <prop refId="6" value="47808" name="ipPort"/>
+        <prop refId="9" value="true" name="mstpEnabled"/>
+        <prop refId="13" value="baud_19200" name="mstpBaudRate"/>
+        <prop refId="14" value="57" name="mstpMAC"/>
+        <prop refId="17" value="false" name="bbmdEnable"/>
+        <prop refId="18" value="" name="bbmdIp"/>
+        <prop refId="19" value="47808" name="bbmdPort"/>
+        <prop refId="20" value="30" name="bbmdTTL"/>
+        <prop refId="21" value="10000" name="APDU_Timeout"/>
+        <prop refId="22" value="3" name="APDU_Retries"/>
+        <prop refId="23" value="41" name="Database_Rev"/>
+        <prop refId="24" value="6" name="Max_Info_Frame"/>
+        <prop refId="25" value="127" name="MaxMaster"/>
+        <comp origName="BACServ" refId="35" type="easyioFGBacnet::BACServerNetwork">
+          <prop refId="0" value="84017153" name="meta"/>
+          <prop refId="4" value="true" name="enable"/>
+          <prop refId="5" value="57" name="objectId"/>
+          <prop refId="6" value="FG32/20" name="serverName"/>
+          <prop refId="13" value="120" type="runtime" name="commTimeout"/>
+          <prop refId="14" value="128" name="maxAvExp"/>
+          <prop refId="15" value="128" name="maxBvExp"/>
+          <prop refId="16" value="16" name="maxSchAExp"/>
+          <prop refId="17" value="16" name="maxSchBExp"/>
+          <prop refId="18" value="8" name="maxCalExp"/>
+          <prop refId="19" value="ManualID" name="objectIdMode"/>
+          <comp origName="Master" refId="36" type="sys::Folder">
+            <prop refId="0" value="50397185" name="meta"/>
+            <comp origName="BV1" refId="37" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="50462721" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="1" name="instanceNumber"/>
+              <prop refId="6" value="EF_G_09_1_On_Off_Status" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="false" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV2" refId="38" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="218234881" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="2" name="instanceNumber"/>
+              <prop refId="6" value="EF_G_09_2_Auto_Manual_Status" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="false" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV3" refId="39" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="386007041" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="3" name="instanceNumber"/>
+              <prop refId="6" value="EF_G_09_3_Trip_Alarm" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="false" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV4" refId="40" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="553779201" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="4" name="instanceNumber"/>
+              <prop refId="6" value="EF_G_10_4_On_Off_Status" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="false" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV13" refId="41" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="52297729" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="13" name="instanceNumber"/>
+              <prop refId="6" value="EF_G_09_13_Start_Stop_Control" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="false" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="false" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV14" refId="42" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="220069889" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="14" name="instanceNumber"/>
+              <prop refId="6" value="EF_G_10_14_Start_Stop_Control" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="true" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV15" refId="43" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="53215233" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="15" name="instanceNumber"/>
+              <prop refId="6" value="Spare" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="null" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV16" refId="44" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="220987393" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="16" name="instanceNumber"/>
+              <prop refId="6" value="Spare" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="null" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV7" refId="45" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="51380225" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="7" name="instanceNumber"/>
+              <prop refId="6" value="Escalator_1_7_On_Off_Status" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="false" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV8" refId="46" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="219152385" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="8" name="instanceNumber"/>
+              <prop refId="6" value="Escalator_1_8_Power_Fail_Status" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="false" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV9" refId="47" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="386924545" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="9" name="instanceNumber"/>
+              <prop refId="6" value="Travelator_1_9_On_Off_Status " name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="false" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV10" refId="48" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="554696705" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="10" name="instanceNumber"/>
+              <prop refId="6" value="Travelator_1_10_Power_Fail_Status " name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="false" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV11" refId="49" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="722468865" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="11" name="instanceNumber"/>
+              <prop refId="6" value="Spare" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="false" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV12" refId="50" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="890241025" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="12" name="instanceNumber"/>
+              <prop refId="6" value="Spare" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="false" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV17" refId="51" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="388759553" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="17" name="instanceNumber"/>
+              <prop refId="6" value="Spare" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="null" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV18" refId="52" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="556531713" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="18" name="instanceNumber"/>
+              <prop refId="6" value="Spare" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="null" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV19" refId="53" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="707526657" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="19" name="instanceNumber"/>
+              <prop refId="6" value="Spare" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="null" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV20" refId="54" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="875298817" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="20" name="instanceNumber"/>
+              <prop refId="6" value="Spare" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="null" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV5" refId="55" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="721551361" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="5" name="instanceNumber"/>
+              <prop refId="6" value="EF_G_10_5_Auto_Manual_Status" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="null" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV6" refId="56" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="889323521" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="6" name="instanceNumber"/>
+              <prop refId="6" value="EF_G_10_6_Trip_Alarm" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="null" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="null" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+            <comp origName="BV22" refId="57" type="easyioFGBacnet::BACServerBV">
+              <prop refId="0" value="54132737" name="meta"/>
+              <prop refId="4" value="true" name="enable"/>
+              <prop refId="5" value="22" name="instanceNumber"/>
+              <prop refId="6" value="Fire_Alarm_Status" name="objName"/>
+              <prop refId="9" value="null" name="in1"/>
+              <prop refId="10" value="null" name="in2"/>
+              <prop refId="11" value="null" name="in3"/>
+              <prop refId="12" value="null" name="in4"/>
+              <prop refId="13" value="null" name="in5"/>
+              <prop refId="14" value="null" name="in6"/>
+              <prop refId="15" value="null" name="in7"/>
+              <prop refId="16" value="null" name="in8"/>
+              <prop refId="17" value="null" name="in9"/>
+              <prop refId="18" value="null" name="in10"/>
+              <prop refId="19" value="null" name="in11"/>
+              <prop refId="20" value="null" name="in12"/>
+              <prop refId="21" value="null" name="in13"/>
+              <prop refId="22" value="null" name="in14"/>
+              <prop refId="23" value="null" name="in15"/>
+              <prop refId="24" value="false" name="in16"/>
+              <prop refId="25" value="false" name="relinquishDefault"/>
+              <prop refId="26" value="No" name="outOfService"/>
+            </comp>
+          </comp>
+        </comp>
+        <comp origName="BACnetC" refId="77" type="easyioFGBacnet::BACnetClientNETwork">
+          <prop refId="0" value="235012097" name="meta"/>
+          <prop refId="4" value="true" name="enable"/>
+          <prop refId="5" value="1" name="ipNetNum"/>
+          <prop refId="6" value="2" name="mstpNetNum"/>
+          <prop refId="9" value="false" name="writeOnStart"/>
+          <prop refId="10" value="false" name="writeOnUp"/>
+        </comp>
+      </comp>
+    </comp>
+    <comp origName="LOGIC" refId="58" type="sys::Folder">
+      <prop refId="0" value="34537473" name="meta"/>
+      <comp origName="EF_G_09" refId="59" type="sys::Folder">
+        <prop refId="0" value="33751041" name="meta"/>
+        <comp origName="BSW" refId="74" type="control::BSW">
+          <prop refId="0" value="386465793" name="meta"/>
+          <prop refId="2" value="false" type="runtime" name="in1"/>
+          <prop refId="3" value="false" type="runtime" name="in2"/>
+          <prop refId="4" value="false" type="runtime" name="s1"/>
+        </comp>
+        <comp origName="EF_ctrl" refId="75" type="control::WriteBool">
+          <prop refId="0" value="654901249" name="meta"/>
+          <prop refId="1" value="false" name="in"/>
+        </comp>
+        <comp origName="Fire_A" refId="76" type="control::WriteBool">
+          <prop refId="0" value="51118081" name="meta"/>
+          <prop refId="1" value="false" name="in"/>
+        </comp>
+        <comp origName="Schedul" refId="64" type="easyioSchedule::Schedule">
+          <prop refId="0" value="50462721" name="meta"/>
+          <prop refId="5" value="0501-2359" name="MonSchedule1"/>
+          <prop refId="6" value="" name="MonSchedule2"/>
+          <prop refId="8" value="1200-1800" name="TuesSchedule1"/>
+          <prop refId="9" value="" name="TuesSchedule2"/>
+          <prop refId="11" value="0501-2359" name="WedSchedule1"/>
+          <prop refId="12" value="" name="WedSchedule2"/>
+          <prop refId="14" value="0501-2359" name="ThurSchedule1"/>
+          <prop refId="15" value="" name="ThurSchedule2"/>
+          <prop refId="17" value="0501-2359" name="FriSchedule1"/>
+          <prop refId="18" value="" name="FriSchedule2"/>
+          <prop refId="20" value="0501-2359" name="SatSchedule1"/>
+          <prop refId="21" value="" name="SatSchedule2"/>
+          <prop refId="23" value="0501-2359" name="SunSchedule1"/>
+          <prop refId="24" value="" name="SunSchedule2"/>
+          <prop refId="25" value="OFF" name="Holiday1Enabled"/>
+          <prop refId="27" value="OFF" name="eventOutput1"/>
+          <prop refId="28" value="" name="Hol1Schedule1"/>
+          <prop refId="29" value="" name="Hol1Schedule2"/>
+          <prop refId="30" value="OFF" name="Holiday2Enabled"/>
+          <prop refId="32" value="OFF" name="eventOutput2"/>
+          <prop refId="33" value="" name="Hol2Schedule1"/>
+          <prop refId="34" value="" name="Hol2Schedule2"/>
+          <prop refId="35" value="false" name="fallBackOut"/>
+          <prop refId="36" value="none" name="nullOn"/>
+          <prop refId="37" value="false" name="undefinedNull"/>
+        </comp>
+      </comp>
+      <comp origName="EF_G_10" refId="60" type="sys::Folder">
+        <prop refId="0" value="34013185" name="meta"/>
+        <comp origName="BSW" refId="63" type="control::BSW">
+          <prop refId="0" value="386465793" name="meta"/>
+          <prop refId="2" value="true" type="runtime" name="in1"/>
+          <prop refId="3" value="false" type="runtime" name="in2"/>
+          <prop refId="4" value="false" type="runtime" name="s1"/>
+        </comp>
+        <comp origName="EF_ctrl" refId="65" type="control::WriteBool">
+          <prop refId="0" value="654901249" name="meta"/>
+          <prop refId="1" value="true" name="in"/>
+        </comp>
+        <comp origName="Fire_A" refId="66" type="control::WriteBool">
+          <prop refId="0" value="51118081" name="meta"/>
+          <prop refId="1" value="false" name="in"/>
+        </comp>
+        <comp origName="Schedul" refId="67" type="easyioSchedule::Schedule">
+          <prop refId="0" value="50462721" name="meta"/>
+          <prop refId="5" value="0501-2359" name="MonSchedule1"/>
+          <prop refId="6" value="" name="MonSchedule2"/>
+          <prop refId="8" value="0501-2359" name="TuesSchedule1"/>
+          <prop refId="9" value="" name="TuesSchedule2"/>
+          <prop refId="11" value="0501-2359" name="WedSchedule1"/>
+          <prop refId="12" value="" name="WedSchedule2"/>
+          <prop refId="14" value="0501-2359" name="ThurSchedule1"/>
+          <prop refId="15" value="" name="ThurSchedule2"/>
+          <prop refId="17" value="0501-2359" name="FriSchedule1"/>
+          <prop refId="18" value="" name="FriSchedule2"/>
+          <prop refId="20" value="0501-2359" name="SatSchedule1"/>
+          <prop refId="21" value="" name="SatSchedule2"/>
+          <prop refId="23" value="0501-2359" name="SunSchedule1"/>
+          <prop refId="24" value="" name="SunSchedule2"/>
+          <prop refId="25" value="OFF" name="Holiday1Enabled"/>
+          <prop refId="27" value="OFF" name="eventOutput1"/>
+          <prop refId="28" value="" name="Hol1Schedule1"/>
+          <prop refId="29" value="" name="Hol1Schedule2"/>
+          <prop refId="30" value="OFF" name="Holiday2Enabled"/>
+          <prop refId="32" value="OFF" name="eventOutput2"/>
+          <prop refId="33" value="" name="Hol2Schedule1"/>
+          <prop refId="34" value="" name="Hol2Schedule2"/>
+          <prop refId="35" value="false" name="fallBackOut"/>
+          <prop refId="36" value="none" name="nullOn"/>
+          <prop refId="37" value="false" name="undefinedNull"/>
+        </comp>
+      </comp>
+    </comp>
+  </composite>
+  <links>
+    <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV1.in10" fromSlotName="easyioFG::UI.digitalOut" from="14.4" to="37.18" fromRefPath="/EasyIO/UI1.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV2.in10" fromSlotName="easyioFG::UI.digitalOut" from="15.4" to="38.18" fromRefPath="/EasyIO/UI2.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV3.in10" fromSlotName="easyioFG::UI.digitalOut" from="16.4" to="39.18" fromRefPath="/EasyIO/UI3.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV4.in10" fromSlotName="easyioFG::UI.digitalOut" from="17.4" to="40.18" fromRefPath="/EasyIO/UI4.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV7.in10" fromSlotName="easyioFG::UI.digitalOut" from="20.4" to="45.18" fromRefPath="/EasyIO/UI7.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV8.in10" fromSlotName="easyioFG::UI.digitalOut" from="21.4" to="46.18" fromRefPath="/EasyIO/UI8.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV9.in10" fromSlotName="easyioFG::UI.digitalOut" from="22.4" to="47.18" fromRefPath="/EasyIO/UI9.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV10.in10" fromSlotName="easyioFG::UI.digitalOut" from="23.4" to="48.18" fromRefPath="/EasyIO/UI10.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV11.in10" fromSlotName="easyioFG::UI.digitalOut" from="24.4" to="49.18" fromRefPath="/EasyIO/UI11.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV12.in10" fromSlotName="easyioFG::UI.digitalOut" from="25.4" to="50.18" fromRefPath="/EasyIO/UI12.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/EasyIO/DO1.in" fromSlotName="easyioFGBacnet::BACServerBV.out" from="41.8" to="26.3" fromRefPath="/BACnet/BACnetS/BACServ/Master/BV13.out" toSlotName="easyioFG::DO.in"/>
+    <link toRefPath="/EasyIO/DO2.in" fromSlotName="easyioFGBacnet::BACServerBV.out" from="42.8" to="27.3" fromRefPath="/BACnet/BACnetS/BACServ/Master/BV14.out" toSlotName="easyioFG::DO.in"/>
+    <link toRefPath="/EasyIO/UO1.in" fromSlotName="easyioFGBacnet::BACServerBV.out" from="43.8" to="28.3" fromRefPath="/BACnet/BACnetS/BACServ/Master/BV15.out" toSlotName="easyioFG::DO.in"/>
+    <link toRefPath="/EasyIO/UO2.in" fromSlotName="easyioFGBacnet::BACServerBV.out" from="44.8" to="29.3" fromRefPath="/BACnet/BACnetS/BACServ/Master/BV16.out" toSlotName="easyioFG::DO.in"/>
+    <link toRefPath="/EasyIO/UO3.in" fromSlotName="easyioFGBacnet::BACServerBV.out" from="51.8" to="30.3" fromRefPath="/BACnet/BACnetS/BACServ/Master/BV17.out" toSlotName="easyioFG::DO.in"/>
+    <link toRefPath="/EasyIO/UO4.in" fromSlotName="easyioFGBacnet::BACServerBV.out" from="52.8" to="31.3" fromRefPath="/BACnet/BACnetS/BACServ/Master/BV18.out" toSlotName="easyioFG::DO.in"/>
+    <link toRefPath="/EasyIO/UO5.in" fromSlotName="easyioFGBacnet::BACServerBV.out" from="53.8" to="32.3" fromRefPath="/BACnet/BACnetS/BACServ/Master/BV19.out" toSlotName="easyioFG::DO.in"/>
+    <link toRefPath="/EasyIO/UO6.in" fromSlotName="easyioFGBacnet::BACServerBV.out" from="54.8" to="33.3" fromRefPath="/BACnet/BACnetS/BACServ/Master/BV20.out" toSlotName="easyioFG::DO.in"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV13.in10" fromSlotName="control::WriteBool.out" from="75.2" to="41.18" fromRefPath="/LOGIC/EF_G_09/EF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV14.in10" fromSlotName="control::WriteBool.out" from="65.2" to="42.18" fromRefPath="/LOGIC/EF_G_10/EF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/LOGIC/EF_G_10/Fire_A.in" fromSlotName="easyioFGBacnet::BACServerBV.out" from="57.8" to="66.1" fromRefPath="/BACnet/BACnetS/BACServ/Master/BV22.out" toSlotName="control::WriteBool.in"/>
+    <link toRefPath="/LOGIC/EF_G_09/Fire_A.in" fromSlotName="easyioFGBacnet::BACServerBV.out" from="57.8" to="76.1" fromRefPath="/BACnet/BACnetS/BACServ/Master/BV22.out" toSlotName="control::WriteBool.in"/>
+    <link toRefPath="/LOGIC/EF_G_09/BSW.s1" fromSlotName="control::WriteBool.out" from="76.2" to="74.4" fromRefPath="/LOGIC/EF_G_09/Fire_A.out" toSlotName="control::BSW.s1"/>
+    <link toRefPath="/LOGIC/EF_G_09/BSW.in1" fromSlotName="easyioSchedule::Schedule.out" from="64.3" to="74.2" fromRefPath="/LOGIC/EF_G_09/Schedul.out" toSlotName="control::BSW.in1"/>
+    <link toRefPath="/LOGIC/EF_G_09/EF_ctrl.in" fromSlotName="control::BSW.out" from="74.1" to="75.1" fromRefPath="/LOGIC/EF_G_09/BSW.out" toSlotName="control::WriteBool.in"/>
+    <link toRefPath="/LOGIC/EF_G_10/BSW.in1" fromSlotName="easyioSchedule::Schedule.out" from="67.3" to="63.2" fromRefPath="/LOGIC/EF_G_10/Schedul.out" toSlotName="control::BSW.in1"/>
+    <link toRefPath="/LOGIC/EF_G_10/BSW.s1" fromSlotName="control::WriteBool.out" from="66.2" to="63.4" fromRefPath="/LOGIC/EF_G_10/Fire_A.out" toSlotName="control::BSW.s1"/>
+    <link toRefPath="/LOGIC/EF_G_10/EF_ctrl.in" fromSlotName="control::BSW.out" from="63.1" to="65.1" fromRefPath="/LOGIC/EF_G_10/BSW.out" toSlotName="control::WriteBool.in"/>
+  </links>
+</sedonaComposite>
