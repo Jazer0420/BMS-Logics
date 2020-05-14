@@ -7,6 +7,126 @@
     <prop value="2" name="baseX"/>
     <prop value="6" name="baseY"/>
     <prop value="11" name="height"/>
+    <comp origName="LOGIC" refId="112" type="sys::Folder">
+      <prop refId="0" value="34471937" name="meta"/>
+      <comp origName="JetFans" refId="177" type="sys::Folder">
+        <prop refId="0" value="16842753" name="meta"/>
+        <comp origName="JF_B07" refId="113" type="sys::Folder">
+          <prop refId="0" value="16842753" name="meta"/>
+          <comp origName="JF_ctrl" refId="131" type="control::ConstBool">
+            <prop refId="0" value="621346817" name="meta"/>
+            <prop refId="1" value="false" name="out"/>
+          </comp>
+          <comp origName="Schedul" refId="132" type="easyioSchedule::Schedule">
+            <prop refId="0" value="219086849" name="meta"/>
+            <prop refId="5" value="0501-2359" name="MonSchedule1"/>
+            <prop refId="6" value="" name="MonSchedule2"/>
+            <prop refId="8" value="0501-2359" name="TuesSchedule1"/>
+            <prop refId="9" value="" name="TuesSchedule2"/>
+            <prop refId="11" value="0501-2359" name="WedSchedule1"/>
+            <prop refId="12" value="" name="WedSchedule2"/>
+            <prop refId="14" value="0501-2359" name="ThurSchedule1"/>
+            <prop refId="15" value="" name="ThurSchedule2"/>
+            <prop refId="17" value="0501-2359" name="FriSchedule1"/>
+            <prop refId="18" value="" name="FriSchedule2"/>
+            <prop refId="20" value="0501-2359" name="SatSchedule1"/>
+            <prop refId="21" value="" name="SatSchedule2"/>
+            <prop refId="23" value="0501-2359" name="SunSchedule1"/>
+            <prop refId="24" value="" name="SunSchedule2"/>
+            <prop refId="25" value="OFF" name="Holiday1Enabled"/>
+            <prop refId="27" value="OFF" name="eventOutput1"/>
+            <prop refId="28" value="" name="Hol1Schedule1"/>
+            <prop refId="29" value="" name="Hol1Schedule2"/>
+            <prop refId="30" value="OFF" name="Holiday2Enabled"/>
+            <prop refId="32" value="OFF" name="eventOutput2"/>
+            <prop refId="33" value="" name="Hol2Schedule1"/>
+            <prop refId="34" value="" name="Hol2Schedule2"/>
+            <prop refId="35" value="false" name="fallBackOut"/>
+            <prop refId="36" value="none" name="nullOn"/>
+            <prop refId="37" value="false" name="undefinedNull"/>
+          </comp>
+          <comp origName="Cmpr" refId="133" type="control::Cmpr">
+            <prop refId="0" value="218497025" name="meta"/>
+            <prop refId="4" value="0.00" type="runtime" name="x"/>
+            <prop refId="5" value="10.00" type="runtime" name="y"/>
+          </comp>
+          <comp origName="And21" refId="134" type="control::And2">
+            <prop refId="0" value="436797441" name="meta"/>
+            <prop refId="2" value="false" type="runtime" name="in1"/>
+            <prop refId="3" value="true" type="runtime" name="in2"/>
+          </comp>
+          <comp origName="CO_SP" refId="142" type="control::WriteFloat">
+            <prop refId="0" value="34537473" name="meta"/>
+            <prop refId="1" value="10.00" name="in"/>
+          </comp>
+          <comp origName="CO_ppm" refId="122" type="control::WriteFloat">
+            <prop refId="0" value="33685505" name="meta"/>
+            <prop refId="1" value="0.00" name="in"/>
+          </comp>
+          <comp origName="Sample" refId="137" type="control::WriteFloat">
+            <prop refId="0" value="34078721" name="meta"/>
+            <prop refId="1" value="7.00" name="in"/>
+          </comp>
+        </comp>
+        <comp origName="JF_B10" refId="126" type="sys::Folder">
+          <prop refId="0" value="17104897" name="meta"/>
+          <comp origName="Schedul" refId="128" type="easyioSchedule::Schedule">
+            <prop refId="0" value="219086849" name="meta"/>
+            <prop refId="5" value="0501-2359" name="MonSchedule1"/>
+            <prop refId="6" value="" name="MonSchedule2"/>
+            <prop refId="8" value="0501-2359" name="TuesSchedule1"/>
+            <prop refId="9" value="" name="TuesSchedule2"/>
+            <prop refId="11" value="0501-2359" name="WedSchedule1"/>
+            <prop refId="12" value="" name="WedSchedule2"/>
+            <prop refId="14" value="0501-2359" name="ThurSchedule1"/>
+            <prop refId="15" value="" name="ThurSchedule2"/>
+            <prop refId="17" value="0501-2359" name="FriSchedule1"/>
+            <prop refId="18" value="" name="FriSchedule2"/>
+            <prop refId="20" value="0501-2359" name="SatSchedule1"/>
+            <prop refId="21" value="" name="SatSchedule2"/>
+            <prop refId="23" value="0501-2359" name="SunSchedule1"/>
+            <prop refId="24" value="" name="SunSchedule2"/>
+            <prop refId="25" value="OFF" name="Holiday1Enabled"/>
+            <prop refId="27" value="OFF" name="eventOutput1"/>
+            <prop refId="28" value="" name="Hol1Schedule1"/>
+            <prop refId="29" value="" name="Hol1Schedule2"/>
+            <prop refId="30" value="OFF" name="Holiday2Enabled"/>
+            <prop refId="32" value="OFF" name="eventOutput2"/>
+            <prop refId="33" value="" name="Hol2Schedule1"/>
+            <prop refId="34" value="" name="Hol2Schedule2"/>
+            <prop refId="35" value="false" name="fallBackOut"/>
+            <prop refId="36" value="none" name="nullOn"/>
+            <prop refId="37" value="false" name="undefinedNull"/>
+          </comp>
+          <comp origName="Cmpr" refId="129" type="control::Cmpr">
+            <prop refId="0" value="218497025" name="meta"/>
+            <prop refId="4" value="0.00" type="runtime" name="x"/>
+            <prop refId="5" value="10.00" type="runtime" name="y"/>
+          </comp>
+          <comp origName="And21" refId="130" type="control::And2">
+            <prop refId="0" value="436797441" name="meta"/>
+            <prop refId="2" value="false" type="runtime" name="in1"/>
+            <prop refId="3" value="true" type="runtime" name="in2"/>
+          </comp>
+          <comp origName="CO_SP" refId="135" type="control::WriteFloat">
+            <prop refId="0" value="34603009" name="meta"/>
+            <prop refId="1" value="10.00" name="in"/>
+          </comp>
+          <comp origName="CO_ppm" refId="136" type="control::WriteFloat">
+            <prop refId="0" value="33685505" name="meta"/>
+            <prop refId="1" value="0.00" name="in"/>
+          </comp>
+          <comp origName="JF_ctrl" refId="127" type="control::WriteBool">
+            <prop refId="0" value="621346817" name="meta"/>
+            <prop refId="1" value="false" name="in"/>
+          </comp>
+          <comp origName="Sample" refId="123" type="control::WriteFloat">
+            <prop refId="0" value="34144257" name="meta"/>
+            <prop refId="1" value="10.00" name="in"/>
+          </comp>
+        </comp>
+      </comp>
+    </comp>
     <comp origName="BACnet" refId="14" type="sys::Folder">
       <prop refId="0" value="34209793" name="meta"/>
       <comp origName="BACnetS" refId="36" type="easyioFGBacnet::BACnetService">
@@ -22,7 +142,7 @@
         <prop refId="20" value="30" name="bbmdTTL"/>
         <prop refId="21" value="10000" name="APDU_Timeout"/>
         <prop refId="22" value="3" name="APDU_Retries"/>
-        <prop refId="23" value="98" name="Database_Rev"/>
+        <prop refId="23" value="132" name="Database_Rev"/>
         <prop refId="24" value="6" name="Max_Info_Frame"/>
         <prop refId="25" value="127" name="MaxMaster"/>
         <comp origName="BACServ" refId="37" type="easyioFGBacnet::BACServerNetwork">
@@ -64,7 +184,7 @@
               <prop refId="26" value="No" name="outOfService"/>
             </comp>
             <comp origName="BV19" refId="41" type="easyioFGBacnet::BACServerBV">
-              <prop refId="0" value="623509505" name="meta"/>
+              <prop refId="0" value="19529729" name="meta"/>
               <prop refId="4" value="true" name="enable"/>
               <prop refId="5" value="19" name="instanceNumber"/>
               <prop refId="6" value="Spare" name="objName"/>
@@ -184,7 +304,7 @@
               <prop refId="26" value="No" name="outOfService"/>
             </comp>
             <comp origName="BV20" refId="47" type="easyioFGBacnet::BACServerBV">
-              <prop refId="0" value="774504449" name="meta"/>
+              <prop refId="0" value="170524673" name="meta"/>
               <prop refId="4" value="true" name="enable"/>
               <prop refId="5" value="20" name="instanceNumber"/>
               <prop refId="6" value="Spare" name="objName"/>
@@ -208,7 +328,7 @@
               <prop refId="26" value="No" name="outOfService"/>
             </comp>
             <comp origName="BV18" refId="49" type="easyioFGBacnet::BACServerBV">
-              <prop refId="0" value="472514561" name="meta"/>
+              <prop refId="0" value="773652481" name="meta"/>
               <prop refId="4" value="true" name="enable"/>
               <prop refId="5" value="18" name="instanceNumber"/>
               <prop refId="6" value="Spare" name="objName"/>
@@ -232,7 +352,7 @@
               <prop refId="26" value="No" name="outOfService"/>
             </comp>
             <comp origName="BV17" refId="50" type="easyioFGBacnet::BACServerBV">
-              <prop refId="0" value="321519617" name="meta"/>
+              <prop refId="0" value="622657537" name="meta"/>
               <prop refId="4" value="true" name="enable"/>
               <prop refId="5" value="17" name="instanceNumber"/>
               <prop refId="6" value="Spare" name="objName"/>
@@ -256,7 +376,7 @@
               <prop refId="26" value="No" name="outOfService"/>
             </comp>
             <comp origName="BV16" refId="51" type="easyioFGBacnet::BACServerBV">
-              <prop refId="0" value="170524673" name="meta"/>
+              <prop refId="0" value="471662593" name="meta"/>
               <prop refId="4" value="true" name="enable"/>
               <prop refId="5" value="16" name="instanceNumber"/>
               <prop refId="6" value="Spare" name="objName"/>
@@ -280,7 +400,7 @@
               <prop refId="26" value="No" name="outOfService"/>
             </comp>
             <comp origName="BV15" refId="52" type="easyioFGBacnet::BACServerBV">
-              <prop refId="0" value="19529729" name="meta"/>
+              <prop refId="0" value="320667649" name="meta"/>
               <prop refId="4" value="true" name="enable"/>
               <prop refId="5" value="15" name="instanceNumber"/>
               <prop refId="6" value="Spare" name="objName"/>
@@ -520,7 +640,7 @@
               <prop refId="26" value="No" name="outOfService"/>
             </comp>
             <comp origName="AV_51" refId="124" type="easyioFGBacnet::BACServerAV">
-              <prop refId="0" value="20381697" name="meta"/>
+              <prop refId="0" value="623509505" name="meta"/>
               <prop refId="4" value="true" name="enable"/>
               <prop refId="5" value="51" name="instanceNumber"/>
               <prop refId="6" value="JF_B_07_CO_Setpoint" name="objName"/>
@@ -544,7 +664,7 @@
               <prop refId="26" value="No" name="outOfService"/>
             </comp>
             <comp origName="AV_52" refId="125" type="easyioFGBacnet::BACServerAV">
-              <prop refId="0" value="171376641" name="meta"/>
+              <prop refId="0" value="774504449" name="meta"/>
               <prop refId="4" value="true" name="enable"/>
               <prop refId="5" value="52" name="instanceNumber"/>
               <prop refId="6" value="JF_B_10_CO_Setpoint" name="objName"/>
@@ -584,7 +704,7 @@
               <prop refId="15" value="null" name="in7"/>
               <prop refId="16" value="null" name="in8"/>
               <prop refId="17" value="null" name="in9"/>
-              <prop refId="18" value="true" name="in10"/>
+              <prop refId="18" value="false" name="in10"/>
               <prop refId="19" value="null" name="in11"/>
               <prop refId="20" value="null" name="in12"/>
               <prop refId="21" value="null" name="in13"/>
@@ -608,7 +728,7 @@
               <prop refId="15" value="null" name="in7"/>
               <prop refId="16" value="null" name="in8"/>
               <prop refId="17" value="null" name="in9"/>
-              <prop refId="18" value="true" name="in10"/>
+              <prop refId="18" value="false" name="in10"/>
               <prop refId="19" value="null" name="in11"/>
               <prop refId="20" value="null" name="in12"/>
               <prop refId="21" value="null" name="in13"/>
@@ -622,7 +742,7 @@
               <prop refId="0" value="318832641" name="meta"/>
               <prop refId="4" value="true" name="enable"/>
               <prop refId="5" value="23" name="instanceNumber"/>
-              <prop refId="6" value="Jet_Fans_B_34_23_Fan_motor_on_off_status" name="objName"/>
+              <prop refId="6" value="Jet_Fans_B_35_23_Fan_motor_on_off_status" name="objName"/>
               <prop refId="9" value="null" name="in1"/>
               <prop refId="10" value="null" name="in2"/>
               <prop refId="11" value="null" name="in3"/>
@@ -632,7 +752,7 @@
               <prop refId="15" value="null" name="in7"/>
               <prop refId="16" value="null" name="in8"/>
               <prop refId="17" value="null" name="in9"/>
-              <prop refId="18" value="true" name="in10"/>
+              <prop refId="18" value="false" name="in10"/>
               <prop refId="19" value="null" name="in11"/>
               <prop refId="20" value="null" name="in12"/>
               <prop refId="21" value="null" name="in13"/>
@@ -656,7 +776,7 @@
               <prop refId="15" value="null" name="in7"/>
               <prop refId="16" value="null" name="in8"/>
               <prop refId="17" value="null" name="in9"/>
-              <prop refId="18" value="true" name="in10"/>
+              <prop refId="18" value="false" name="in10"/>
               <prop refId="19" value="null" name="in11"/>
               <prop refId="20" value="null" name="in12"/>
               <prop refId="21" value="null" name="in13"/>
@@ -680,7 +800,7 @@
               <prop refId="15" value="null" name="in7"/>
               <prop refId="16" value="null" name="in8"/>
               <prop refId="17" value="null" name="in9"/>
-              <prop refId="18" value="true" name="in10"/>
+              <prop refId="18" value="false" name="in10"/>
               <prop refId="19" value="null" name="in11"/>
               <prop refId="20" value="null" name="in12"/>
               <prop refId="21" value="null" name="in13"/>
@@ -704,7 +824,7 @@
               <prop refId="15" value="null" name="in7"/>
               <prop refId="16" value="null" name="in8"/>
               <prop refId="17" value="null" name="in9"/>
-              <prop refId="18" value="true" name="in10"/>
+              <prop refId="18" value="false" name="in10"/>
               <prop refId="19" value="null" name="in11"/>
               <prop refId="20" value="null" name="in12"/>
               <prop refId="21" value="null" name="in13"/>
@@ -728,7 +848,7 @@
               <prop refId="15" value="null" name="in7"/>
               <prop refId="16" value="null" name="in8"/>
               <prop refId="17" value="null" name="in9"/>
-              <prop refId="18" value="true" name="in10"/>
+              <prop refId="18" value="false" name="in10"/>
               <prop refId="19" value="null" name="in11"/>
               <prop refId="20" value="null" name="in12"/>
               <prop refId="21" value="null" name="in13"/>
@@ -752,7 +872,7 @@
               <prop refId="15" value="null" name="in7"/>
               <prop refId="16" value="null" name="in8"/>
               <prop refId="17" value="null" name="in9"/>
-              <prop refId="18" value="true" name="in10"/>
+              <prop refId="18" value="false" name="in10"/>
               <prop refId="19" value="null" name="in11"/>
               <prop refId="20" value="null" name="in12"/>
               <prop refId="21" value="null" name="in13"/>
@@ -910,7 +1030,7 @@
               <prop refId="0" value="320667649" name="meta"/>
               <prop refId="4" value="true" name="enable"/>
               <prop refId="5" value="39" name="instanceNumber"/>
-              <prop refId="6" value="Jet_Fans_B_34_39_Start_stop_control" name="objName"/>
+              <prop refId="6" value="Jet_Fans_B_35_39_Start_stop_control" name="objName"/>
               <prop refId="9" value="null" name="in1"/>
               <prop refId="10" value="null" name="in2"/>
               <prop refId="11" value="null" name="in3"/>
@@ -2020,126 +2140,6 @@
         </comp>
       </comp>
     </comp>
-    <comp origName="LOGIC" refId="112" type="sys::Folder">
-      <prop refId="0" value="34471937" name="meta"/>
-      <comp origName="JetFans" refId="177" type="sys::Folder">
-        <prop refId="0" value="16842753" name="meta"/>
-        <comp origName="JF_B07" refId="113" type="sys::Folder">
-          <prop refId="0" value="16842753" name="meta"/>
-          <comp origName="JF_ctrl" refId="131" type="control::ConstBool">
-            <prop refId="0" value="621346817" name="meta"/>
-            <prop refId="1" value="false" name="out"/>
-          </comp>
-          <comp origName="Schedul" refId="132" type="easyioSchedule::Schedule">
-            <prop refId="0" value="219086849" name="meta"/>
-            <prop refId="5" value="0501-2359" name="MonSchedule1"/>
-            <prop refId="6" value="" name="MonSchedule2"/>
-            <prop refId="8" value="0501-2359" name="TuesSchedule1"/>
-            <prop refId="9" value="" name="TuesSchedule2"/>
-            <prop refId="11" value="0501-2359" name="WedSchedule1"/>
-            <prop refId="12" value="" name="WedSchedule2"/>
-            <prop refId="14" value="0501-2359" name="ThurSchedule1"/>
-            <prop refId="15" value="" name="ThurSchedule2"/>
-            <prop refId="17" value="0501-2359" name="FriSchedule1"/>
-            <prop refId="18" value="" name="FriSchedule2"/>
-            <prop refId="20" value="0501-2359" name="SatSchedule1"/>
-            <prop refId="21" value="" name="SatSchedule2"/>
-            <prop refId="23" value="0501-2359" name="SunSchedule1"/>
-            <prop refId="24" value="" name="SunSchedule2"/>
-            <prop refId="25" value="OFF" name="Holiday1Enabled"/>
-            <prop refId="27" value="OFF" name="eventOutput1"/>
-            <prop refId="28" value="" name="Hol1Schedule1"/>
-            <prop refId="29" value="" name="Hol1Schedule2"/>
-            <prop refId="30" value="OFF" name="Holiday2Enabled"/>
-            <prop refId="32" value="OFF" name="eventOutput2"/>
-            <prop refId="33" value="" name="Hol2Schedule1"/>
-            <prop refId="34" value="" name="Hol2Schedule2"/>
-            <prop refId="35" value="false" name="fallBackOut"/>
-            <prop refId="36" value="none" name="nullOn"/>
-            <prop refId="37" value="false" name="undefinedNull"/>
-          </comp>
-          <comp origName="Cmpr" refId="133" type="control::Cmpr">
-            <prop refId="0" value="218497025" name="meta"/>
-            <prop refId="4" value="0.00" type="runtime" name="x"/>
-            <prop refId="5" value="0.00" type="runtime" name="y"/>
-          </comp>
-          <comp origName="And21" refId="134" type="control::And2">
-            <prop refId="0" value="436797441" name="meta"/>
-            <prop refId="2" value="false" type="runtime" name="in1"/>
-            <prop refId="3" value="false" type="runtime" name="in2"/>
-          </comp>
-          <comp origName="CO_SP" refId="142" type="control::WriteFloat">
-            <prop refId="0" value="34537473" name="meta"/>
-            <prop refId="1" value="10.00" name="in"/>
-          </comp>
-          <comp origName="CO_ppm" refId="122" type="control::WriteFloat">
-            <prop refId="0" value="33685505" name="meta"/>
-            <prop refId="1" value="0.00" name="in"/>
-          </comp>
-          <comp origName="Sample" refId="123" type="control::WriteFloat">
-            <prop refId="0" value="34078721" name="meta"/>
-            <prop refId="1" value="0.00" name="in"/>
-          </comp>
-        </comp>
-        <comp origName="JF_B10" refId="126" type="sys::Folder">
-          <prop refId="0" value="17104897" name="meta"/>
-          <comp origName="Schedul" refId="128" type="easyioSchedule::Schedule">
-            <prop refId="0" value="219086849" name="meta"/>
-            <prop refId="5" value="0501-2359" name="MonSchedule1"/>
-            <prop refId="6" value="" name="MonSchedule2"/>
-            <prop refId="8" value="0501-2359" name="TuesSchedule1"/>
-            <prop refId="9" value="" name="TuesSchedule2"/>
-            <prop refId="11" value="0501-2359" name="WedSchedule1"/>
-            <prop refId="12" value="" name="WedSchedule2"/>
-            <prop refId="14" value="0501-2359" name="ThurSchedule1"/>
-            <prop refId="15" value="" name="ThurSchedule2"/>
-            <prop refId="17" value="0501-2359" name="FriSchedule1"/>
-            <prop refId="18" value="" name="FriSchedule2"/>
-            <prop refId="20" value="0501-2359" name="SatSchedule1"/>
-            <prop refId="21" value="" name="SatSchedule2"/>
-            <prop refId="23" value="0501-2359" name="SunSchedule1"/>
-            <prop refId="24" value="" name="SunSchedule2"/>
-            <prop refId="25" value="OFF" name="Holiday1Enabled"/>
-            <prop refId="27" value="OFF" name="eventOutput1"/>
-            <prop refId="28" value="" name="Hol1Schedule1"/>
-            <prop refId="29" value="" name="Hol1Schedule2"/>
-            <prop refId="30" value="OFF" name="Holiday2Enabled"/>
-            <prop refId="32" value="OFF" name="eventOutput2"/>
-            <prop refId="33" value="" name="Hol2Schedule1"/>
-            <prop refId="34" value="" name="Hol2Schedule2"/>
-            <prop refId="35" value="false" name="fallBackOut"/>
-            <prop refId="36" value="none" name="nullOn"/>
-            <prop refId="37" value="false" name="undefinedNull"/>
-          </comp>
-          <comp origName="Cmpr" refId="129" type="control::Cmpr">
-            <prop refId="0" value="218497025" name="meta"/>
-            <prop refId="4" value="0.00" type="runtime" name="x"/>
-            <prop refId="5" value="0.00" type="runtime" name="y"/>
-          </comp>
-          <comp origName="And21" refId="130" type="control::And2">
-            <prop refId="0" value="436797441" name="meta"/>
-            <prop refId="2" value="false" type="runtime" name="in1"/>
-            <prop refId="3" value="false" type="runtime" name="in2"/>
-          </comp>
-          <comp origName="CO_SP" refId="135" type="control::WriteFloat">
-            <prop refId="0" value="34537473" name="meta"/>
-            <prop refId="1" value="10.00" name="in"/>
-          </comp>
-          <comp origName="CO_ppm" refId="136" type="control::WriteFloat">
-            <prop refId="0" value="33685505" name="meta"/>
-            <prop refId="1" value="0.00" name="in"/>
-          </comp>
-          <comp origName="Sample" refId="137" type="control::WriteFloat">
-            <prop refId="0" value="34078721" name="meta"/>
-            <prop refId="1" value="9.00" name="in"/>
-          </comp>
-          <comp origName="JF_ctrl" refId="127" type="control::WriteBool">
-            <prop refId="0" value="621346817" name="meta"/>
-            <prop refId="1" value="false" name="in"/>
-          </comp>
-        </comp>
-      </comp>
-    </comp>
     <comp origName="EasyIO" refId="11" type="sys::Folder">
       <prop refId="0" value="33947649" name="meta"/>
       <comp origName="UI6" refId="15" type="easyioFG::UI">
@@ -2317,6 +2317,28 @@
     </comp>
   </composite>
   <links>
+    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV37.in10" fromSlotName="control::ConstBool.out" from="131.1" to="100.18" fromRefPath="/LOGIC/JetFans/JF_B07/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV38.in10" fromSlotName="control::ConstBool.out" from="131.1" to="101.18" fromRefPath="/LOGIC/JetFans/JF_B07/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV39.in10" fromSlotName="control::ConstBool.out" from="131.1" to="102.18" fromRefPath="/LOGIC/JetFans/JF_B07/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV40.in10" fromSlotName="control::ConstBool.out" from="131.1" to="103.18" fromRefPath="/LOGIC/JetFans/JF_B07/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/LOGIC/JetFans/JF_B07/JF_ctrl.out" fromSlotName="control::And2.out" from="134.1" to="131.1" fromRefPath="/LOGIC/JetFans/JF_B07/And21.out" toSlotName="control::ConstBool.out"/>
+    <link toRefPath="/LOGIC/JetFans/JF_B07/And21.in2" fromSlotName="easyioSchedule::Schedule.out" from="132.3" to="134.3" fromRefPath="/LOGIC/JetFans/JF_B07/Schedul.out" toSlotName="control::And2.in2"/>
+    <link toRefPath="/LOGIC/JetFans/JF_B07/Cmpr.y" fromSlotName="control::WriteFloat.out" from="142.2" to="133.5" fromRefPath="/LOGIC/JetFans/JF_B07/CO_SP.out" toSlotName="control::Cmpr.y"/>
+    <link toRefPath="/LOGIC/JetFans/JF_B07/Cmpr.x" fromSlotName="control::WriteFloat.out" from="122.2" to="133.4" fromRefPath="/LOGIC/JetFans/JF_B07/CO_ppm.out" toSlotName="control::Cmpr.x"/>
+    <link toRefPath="/LOGIC/JetFans/JF_B07/And21.in1" fromSlotName="control::Cmpr.xgy" from="133.1" to="134.2" fromRefPath="/LOGIC/JetFans/JF_B07/Cmpr.xgy" toSlotName="control::And2.in1"/>
+    <link toRefPath="/LOGIC/JetFans/JF_B07/CO_SP.in" fromSlotName="easyioFGBacnet::BACServerAV.out" from="124.8" to="142.1" fromRefPath="/BACnet/BACnetS/BACServ/Master/AV_51.out" toSlotName="control::WriteFloat.in"/>
+    <link toRefPath="/LOGIC/JetFans/JF_B07/CO_ppm.in" fromSlotName="easyioFGBacnet::BACServerAV.out" from="46.8" to="122.1" fromRefPath="/BACnet/BACnetS/BACServ/Master/AV1.out" toSlotName="control::WriteFloat.in"/>
+    <link toRefPath="/LOGIC/JetFans/JF_B10/And21.in2" fromSlotName="easyioSchedule::Schedule.out" from="128.3" to="130.3" fromRefPath="/LOGIC/JetFans/JF_B10/Schedul.out" toSlotName="control::And2.in2"/>
+    <link toRefPath="/LOGIC/JetFans/JF_B10/Cmpr.y" fromSlotName="control::WriteFloat.out" from="135.2" to="129.5" fromRefPath="/LOGIC/JetFans/JF_B10/CO_SP.out" toSlotName="control::Cmpr.y"/>
+    <link toRefPath="/LOGIC/JetFans/JF_B10/Cmpr.x" fromSlotName="control::WriteFloat.out" from="136.2" to="129.4" fromRefPath="/LOGIC/JetFans/JF_B10/CO_ppm.out" toSlotName="control::Cmpr.x"/>
+    <link toRefPath="/LOGIC/JetFans/JF_B10/And21.in1" fromSlotName="control::Cmpr.xgy" from="129.1" to="130.2" fromRefPath="/LOGIC/JetFans/JF_B10/Cmpr.xgy" toSlotName="control::And2.in1"/>
+    <link toRefPath="/LOGIC/JetFans/JF_B10/JF_ctrl.in" fromSlotName="control::And2.out" from="130.1" to="127.1" fromRefPath="/LOGIC/JetFans/JF_B10/And21.out" toSlotName="control::WriteBool.in"/>
+    <link toRefPath="/LOGIC/JetFans/JF_B10/CO_SP.in" fromSlotName="easyioFGBacnet::BACServerAV.out" from="125.8" to="135.1" fromRefPath="/BACnet/BACnetS/BACServ/Master/AV_52.out" toSlotName="control::WriteFloat.in"/>
+    <link toRefPath="/LOGIC/JetFans/JF_B10/CO_ppm.in" fromSlotName="easyioFGBacnet::BACServerAV.out" from="48.8" to="136.1" fromRefPath="/BACnet/BACnetS/BACServ/Master/AV2.out" toSlotName="control::WriteFloat.in"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV41.in10" fromSlotName="control::WriteBool.out" from="127.2" to="104.18" fromRefPath="/LOGIC/JetFans/JF_B10/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV42.in10" fromSlotName="control::WriteBool.out" from="127.2" to="105.18" fromRefPath="/LOGIC/JetFans/JF_B10/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV43.in10" fromSlotName="control::WriteBool.out" from="127.2" to="106.18" fromRefPath="/LOGIC/JetFans/JF_B10/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
+    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV44.in10" fromSlotName="control::WriteBool.out" from="127.2" to="107.18" fromRefPath="/LOGIC/JetFans/JF_B10/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV9.in10" fromSlotName="easyioFG::UI.digitalOut" from="27.4" to="40.18" fromRefPath="/EasyIO/UI9.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
     <link toRefPath="/EasyIO/UO5.in" fromSlotName="easyioFGBacnet::BACServerBV.out" from="41.8" to="25.3" fromRefPath="/BACnet/BACnetS/BACServ/Master/BV19.out" toSlotName="easyioFG::DO.in"/>
     <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV8.in10" fromSlotName="easyioFG::UI.digitalOut" from="22.4" to="42.18" fromRefPath="/EasyIO/UI8.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
@@ -2334,13 +2356,9 @@
     <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV10.in10" fromSlotName="easyioFG::UI.digitalOut" from="19.4" to="56.18" fromRefPath="/EasyIO/UI10.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV12.in10" fromSlotName="easyioFG::UI.digitalOut" from="29.4" to="59.18" fromRefPath="/EasyIO/UI12.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACServ/Master/AV1.in10" fromSlotName="control::Reset.out" from="20.1" to="46.18" fromRefPath="/EasyIO/Reset1.out" toSlotName="easyioFGBacnet::BACServerAV.in10"/>
-    <link toRefPath="/LOGIC/JetFans/JF_B07/CO_ppm.in" fromSlotName="easyioFGBacnet::BACServerAV.out" from="46.8" to="122.1" fromRefPath="/BACnet/BACnetS/BACServ/Master/AV1.out" toSlotName="control::WriteFloat.in"/>
     <link toRefPath="/BACnet/BACnetS/BACServ/Master/AV2.in10" fromSlotName="control::Reset.out" from="60.1" to="48.18" fromRefPath="/EasyIO/Reset2.out" toSlotName="easyioFGBacnet::BACServerAV.in10"/>
-    <link toRefPath="/LOGIC/JetFans/JF_B10/CO_ppm.in" fromSlotName="easyioFGBacnet::BACServerAV.out" from="48.8" to="136.1" fromRefPath="/BACnet/BACnetS/BACServ/Master/AV2.out" toSlotName="control::WriteFloat.in"/>
     <link toRefPath="/BACnet/BACnetS/BACServ/Master/AV3.in10" fromSlotName="control::Reset.out" from="13.1" to="57.18" fromRefPath="/EasyIO/Reset3.out" toSlotName="easyioFGBacnet::BACServerAV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACServ/Master/BV5.in10" fromSlotName="easyioFG::UI.digitalOut" from="33.4" to="58.18" fromRefPath="/EasyIO/UI5.digitalOut" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
-    <link toRefPath="/LOGIC/JetFans/JF_B07/CO_SP.in" fromSlotName="easyioFGBacnet::BACServerAV.out" from="124.8" to="142.1" fromRefPath="/BACnet/BACnetS/BACServ/Master/AV_51.out" toSlotName="control::WriteFloat.in"/>
-    <link toRefPath="/LOGIC/JetFans/JF_B10/CO_SP.in" fromSlotName="easyioFGBacnet::BACServerAV.out" from="125.8" to="135.1" fromRefPath="/BACnet/BACnetS/BACServ/Master/AV_52.out" toSlotName="control::WriteFloat.in"/>
     <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV21.in10" fromSlotName="easyioFGBacnet::BACnetClientBV.presentValue" from="79.8" to="84.18" fromRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/BV21.presentValue" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV22.in10" fromSlotName="easyioFGBacnet::BACnetClientBV.presentValue" from="80.8" to="85.18" fromRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/BV22.presentValue" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV23.in10" fromSlotName="easyioFGBacnet::BACnetClientBV.presentValue" from="114.8" to="86.18" fromRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/BV23.presentValue" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
@@ -2354,20 +2372,12 @@
     <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/AV35.in10" fromSlotName="easyioFGBacnet::BACnetClientAV.presentValue" from="73.8" to="98.18" fromRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/AV35.presentValue" toSlotName="easyioFGBacnet::BACServerAV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/AV36.in10" fromSlotName="easyioFGBacnet::BACnetClientAV.presentValue" from="74.8" to="99.18" fromRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/AV36.presentValue" toSlotName="easyioFGBacnet::BACServerAV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/BV37.in10" fromSlotName="easyioFGBacnet::BACServerBV.out" from="100.8" to="95.18" fromRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV37.out" toSlotName="easyioFGBacnet::BACnetClientBV.in10"/>
-    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV37.in10" fromSlotName="control::ConstBool.out" from="131.1" to="100.18" fromRefPath="/LOGIC/JetFans/JF_B07/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/BV38.in10" fromSlotName="easyioFGBacnet::BACServerBV.out" from="101.8" to="78.18" fromRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV38.out" toSlotName="easyioFGBacnet::BACnetClientBV.in10"/>
-    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV38.in10" fromSlotName="control::ConstBool.out" from="131.1" to="101.18" fromRefPath="/LOGIC/JetFans/JF_B07/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
-    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV39.in10" fromSlotName="control::ConstBool.out" from="131.1" to="102.18" fromRefPath="/LOGIC/JetFans/JF_B07/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/BV39.in10" fromSlotName="easyioFGBacnet::BACServerBV.out" from="102.8" to="115.18" fromRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV39.out" toSlotName="easyioFGBacnet::BACnetClientBV.in10"/>
-    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV40.in10" fromSlotName="control::ConstBool.out" from="131.1" to="103.18" fromRefPath="/LOGIC/JetFans/JF_B07/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/BV40.in10" fromSlotName="easyioFGBacnet::BACServerBV.out" from="103.8" to="116.18" fromRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV40.out" toSlotName="easyioFGBacnet::BACnetClientBV.in10"/>
-    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV41.in10" fromSlotName="control::WriteBool.out" from="127.2" to="104.18" fromRefPath="/LOGIC/JetFans/JF_B10/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/BV41.in10" fromSlotName="easyioFGBacnet::BACServerBV.out" from="104.8" to="117.18" fromRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV41.out" toSlotName="easyioFGBacnet::BACnetClientBV.in10"/>
-    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV42.in10" fromSlotName="control::WriteBool.out" from="127.2" to="105.18" fromRefPath="/LOGIC/JetFans/JF_B10/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/BV42.in10" fromSlotName="easyioFGBacnet::BACServerBV.out" from="105.8" to="118.18" fromRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV42.out" toSlotName="easyioFGBacnet::BACnetClientBV.in10"/>
-    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV43.in10" fromSlotName="control::WriteBool.out" from="127.2" to="106.18" fromRefPath="/LOGIC/JetFans/JF_B10/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/BV43.in10" fromSlotName="easyioFGBacnet::BACServerBV.out" from="106.8" to="119.18" fromRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV43.out" toSlotName="easyioFGBacnet::BACnetClientBV.in10"/>
-    <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV44.in10" fromSlotName="control::WriteBool.out" from="127.2" to="107.18" fromRefPath="/LOGIC/JetFans/JF_B10/JF_ctrl.out" toSlotName="easyioFGBacnet::BACServerBV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/BV44.in10" fromSlotName="easyioFGBacnet::BACServerBV.out" from="107.8" to="120.18" fromRefPath="/BACnet/BACnetS/BACServ/S_30P_1/BV44.out" toSlotName="easyioFGBacnet::BACnetClientBV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/AV45.in10" fromSlotName="easyioFGBacnet::BACServerAV.out" from="108.8" to="75.18" fromRefPath="/BACnet/BACnetS/BACServ/S_30P_1/AV45.out" toSlotName="easyioFGBacnet::BACnetClientAV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/AV46.in10" fromSlotName="easyioFGBacnet::BACServerAV.out" from="109.8" to="76.18" fromRefPath="/BACnet/BACnetS/BACServ/S_30P_1/AV46.out" toSlotName="easyioFGBacnet::BACnetClientAV.in10"/>
@@ -2377,19 +2387,8 @@
     <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/AV30.in10" fromSlotName="easyioFGBacnet::BACnetClientAV.presentValue" from="68.8" to="63.18" fromRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/AV30.presentValue" toSlotName="easyioFGBacnet::BACServerAV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/AV31.in10" fromSlotName="easyioFGBacnet::BACnetClientAV.presentValue" from="69.8" to="64.18" fromRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/AV31.presentValue" toSlotName="easyioFGBacnet::BACServerAV.in10"/>
     <link toRefPath="/BACnet/BACnetS/BACServ/S_30P_1/AV32.in10" fromSlotName="easyioFGBacnet::BACnetClientAV.presentValue" from="70.8" to="65.18" fromRefPath="/BACnet/BACnetS/BACnetC/DDC_BM_/AV32.presentValue" toSlotName="easyioFGBacnet::BACServerAV.in10"/>
-    <link toRefPath="/LOGIC/JetFans/JF_B07/JF_ctrl.out" fromSlotName="control::And2.out" from="134.1" to="131.1" fromRefPath="/LOGIC/JetFans/JF_B07/And21.out" toSlotName="control::ConstBool.out"/>
-    <link toRefPath="/LOGIC/JetFans/JF_B07/And21.in2" fromSlotName="easyioSchedule::Schedule.out" from="132.3" to="134.3" fromRefPath="/LOGIC/JetFans/JF_B07/Schedul.out" toSlotName="control::And2.in2"/>
-    <link toRefPath="/LOGIC/JetFans/JF_B07/Cmpr.x" fromSlotName="control::WriteFloat.out" from="122.2" to="133.4" fromRefPath="/LOGIC/JetFans/JF_B07/CO_ppm.out" toSlotName="control::Cmpr.x"/>
-    <link toRefPath="/LOGIC/JetFans/JF_B07/Cmpr.y" fromSlotName="control::WriteFloat.out" from="142.2" to="133.5" fromRefPath="/LOGIC/JetFans/JF_B07/CO_SP.out" toSlotName="control::Cmpr.y"/>
-    <link toRefPath="/LOGIC/JetFans/JF_B07/And21.in1" fromSlotName="control::Cmpr.xgy" from="133.1" to="134.2" fromRefPath="/LOGIC/JetFans/JF_B07/Cmpr.xgy" toSlotName="control::And2.in1"/>
-    <link toRefPath="/LOGIC/JetFans/JF_B10/And21.in2" fromSlotName="easyioSchedule::Schedule.out" from="128.3" to="130.3" fromRefPath="/LOGIC/JetFans/JF_B10/Schedul.out" toSlotName="control::And2.in2"/>
-    <link toRefPath="/LOGIC/JetFans/JF_B10/Cmpr.x" fromSlotName="control::WriteFloat.out" from="136.2" to="129.4" fromRefPath="/LOGIC/JetFans/JF_B10/CO_ppm.out" toSlotName="control::Cmpr.x"/>
-    <link toRefPath="/LOGIC/JetFans/JF_B10/Cmpr.y" fromSlotName="control::WriteFloat.out" from="135.2" to="129.5" fromRefPath="/LOGIC/JetFans/JF_B10/CO_SP.out" toSlotName="control::Cmpr.y"/>
-    <link toRefPath="/LOGIC/JetFans/JF_B10/And21.in1" fromSlotName="control::Cmpr.xgy" from="129.1" to="130.2" fromRefPath="/LOGIC/JetFans/JF_B10/Cmpr.xgy" toSlotName="control::And2.in1"/>
-    <link toRefPath="/LOGIC/JetFans/JF_B10/JF_ctrl.in" fromSlotName="control::And2.out" from="130.1" to="127.1" fromRefPath="/LOGIC/JetFans/JF_B10/And21.out" toSlotName="control::WriteBool.in"/>
     <link toRefPath="/EasyIO/Reset2.in" fromSlotName="easyioFG::UI.out" from="16.3" to="60.2" fromRefPath="/EasyIO/UI2.out" toSlotName="control::Reset.in"/>
     <link toRefPath="/EasyIO/Reset1.in" fromSlotName="easyioFG::UI.out" from="18.3" to="20.2" fromRefPath="/EasyIO/UI1.out" toSlotName="control::Reset.in"/>
     <link toRefPath="/EasyIO/Reset3.in" fromSlotName="easyioFG::UI.out" from="23.3" to="13.2" fromRefPath="/EasyIO/UI3.out" toSlotName="control::Reset.in"/>
   </links>
 </sedonaComposite>
-
