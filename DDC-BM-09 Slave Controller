@@ -689,4 +689,3 @@
     <link toRefPath="/EasyIO/AO4.in10" fromSlotName="easyioBacnet::AnalogValueRW.out" from="64.1" to="36.22" fromRefPath="/BACnet/AV48.out" toSlotName="easyio30p::AnalogOutput.in10"/>
   </links>
 </sedonaComposite>
-
