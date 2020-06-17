@@ -233,7 +233,7 @@
         <prop refId="1" value="true" name="ipEnabled"/>
         <prop refId="6" value="47808" name="ipPort"/>
         <prop refId="9" value="true" name="mstpEnabled"/>
-        <prop refId="13" value="baud_9600" name="mstpBaudRate"/>
+        <prop refId="13" value="baud_19200" name="mstpBaudRate"/>
         <prop refId="14" value="14" name="mstpMAC"/>
         <prop refId="17" value="false" name="bbmdEnable"/>
         <prop refId="18" value="" name="bbmdIp"/>
@@ -241,7 +241,7 @@
         <prop refId="20" value="30" name="bbmdTTL"/>
         <prop refId="21" value="10000" name="APDU_Timeout"/>
         <prop refId="22" value="3" name="APDU_Retries"/>
-        <prop refId="23" value="1" name="Database_Rev"/>
+        <prop refId="23" value="10" name="Database_Rev"/>
         <prop refId="24" value="6" name="Max_Info_Frame"/>
         <prop refId="25" value="127" name="MaxMaster"/>
         <comp origName="BACServ" refId="41" type="easyioFWBacnet::BACServerNetwork">
@@ -307,7 +307,7 @@
             <prop refId="0" value="402849793" name="meta"/>
             <prop refId="4" value="true" name="enable"/>
             <prop refId="5" value="23" name="instanceNumber"/>
-            <prop refId="6" value="MCP_LIFT14_3_Level_Monitoring" name="objName"/>
+            <prop refId="6" value="MCP_LIFT14_3_Level_6F" name="objName"/>
             <prop refId="9" value="null" name="in1"/>
             <prop refId="10" value="null" name="in2"/>
             <prop refId="11" value="null" name="in3"/>
@@ -331,7 +331,7 @@
             <prop refId="0" value="570621953" name="meta"/>
             <prop refId="4" value="true" name="enable"/>
             <prop refId="5" value="24" name="instanceNumber"/>
-            <prop refId="6" value="MCP_LIFT14_3_Lift_Status" name="objName"/>
+            <prop refId="6" value="MCP_LIFT14_3_Level_7F" name="objName"/>
             <prop refId="9" value="null" name="in1"/>
             <prop refId="10" value="null" name="in2"/>
             <prop refId="11" value="null" name="in3"/>
@@ -355,7 +355,7 @@
             <prop refId="0" value="738394113" name="meta"/>
             <prop refId="4" value="true" name="enable"/>
             <prop refId="5" value="25" name="instanceNumber"/>
-            <prop refId="6" value="MCP_LIFT14_3_Auto_Manual_Status" name="objName"/>
+            <prop refId="6" value="MCP_LIFT14_3_Lift_Status" name="objName"/>
             <prop refId="9" value="null" name="in1"/>
             <prop refId="10" value="null" name="in2"/>
             <prop refId="11" value="null" name="in3"/>
@@ -379,7 +379,7 @@
             <prop refId="0" value="922943489" name="meta"/>
             <prop refId="4" value="true" name="enable"/>
             <prop refId="5" value="26" name="instanceNumber"/>
-            <prop refId="6" value="Spare" name="objName"/>
+            <prop refId="6" value="MCP_LIFT14_3_AutoManual_Status" name="objName"/>
             <prop refId="9" value="null" name="in1"/>
             <prop refId="10" value="null" name="in2"/>
             <prop refId="11" value="null" name="in3"/>
@@ -403,7 +403,7 @@
             <prop refId="0" value="1107492865" name="meta"/>
             <prop refId="4" value="true" name="enable"/>
             <prop refId="5" value="27" name="instanceNumber"/>
-            <prop refId="6" value="Spare" name="objName"/>
+            <prop refId="6" value="MCP_LIFT14_2_TripAlarm" name="objName"/>
             <prop refId="9" value="null" name="in1"/>
             <prop refId="10" value="null" name="in2"/>
             <prop refId="11" value="null" name="in3"/>
@@ -427,7 +427,7 @@
             <prop refId="0" value="1292042241" name="meta"/>
             <prop refId="4" value="true" name="enable"/>
             <prop refId="5" value="28" name="instanceNumber"/>
-            <prop refId="6" value="Spare" name="objName"/>
+            <prop refId="6" value="MCP_LIFT14_2_Level_2F" name="objName"/>
             <prop refId="9" value="null" name="in1"/>
             <prop refId="10" value="null" name="in2"/>
             <prop refId="11" value="null" name="in3"/>
@@ -451,7 +451,7 @@
             <prop refId="0" value="68288513" name="meta"/>
             <prop refId="4" value="true" name="enable"/>
             <prop refId="5" value="29" name="instanceNumber"/>
-            <prop refId="6" value="Spare" name="objName"/>
+            <prop refId="6" value="MCP_LIFT14_2_Level_3F" name="objName"/>
             <prop refId="9" value="null" name="in1"/>
             <prop refId="10" value="null" name="in2"/>
             <prop refId="11" value="null" name="in3"/>
@@ -475,7 +475,7 @@
             <prop refId="0" value="236060673" name="meta"/>
             <prop refId="4" value="true" name="enable"/>
             <prop refId="5" value="30" name="instanceNumber"/>
-            <prop refId="6" value="Spare" name="objName"/>
+            <prop refId="6" value="MCP_LIFT14_2_Level_4F" name="objName"/>
             <prop refId="9" value="null" name="in1"/>
             <prop refId="10" value="null" name="in2"/>
             <prop refId="11" value="null" name="in3"/>
@@ -499,7 +499,7 @@
             <prop refId="0" value="403832833" name="meta"/>
             <prop refId="4" value="true" name="enable"/>
             <prop refId="5" value="31" name="instanceNumber"/>
-            <prop refId="6" value="Spare" name="objName"/>
+            <prop refId="6" value="MCP_LIFT14_2_Level_5F" name="objName"/>
             <prop refId="9" value="null" name="in1"/>
             <prop refId="10" value="null" name="in2"/>
             <prop refId="11" value="null" name="in3"/>
@@ -523,7 +523,7 @@
             <prop refId="0" value="571604993" name="meta"/>
             <prop refId="4" value="true" name="enable"/>
             <prop refId="5" value="32" name="instanceNumber"/>
-            <prop refId="6" value="Spare" name="objName"/>
+            <prop refId="6" value="MCP_LIFT14_2_Level_5FM" name="objName"/>
             <prop refId="9" value="null" name="in1"/>
             <prop refId="10" value="null" name="in2"/>
             <prop refId="11" value="null" name="in3"/>
@@ -547,7 +547,7 @@
             <prop refId="0" value="739377153" name="meta"/>
             <prop refId="4" value="true" name="enable"/>
             <prop refId="5" value="33" name="instanceNumber"/>
-            <prop refId="6" value="Spare" name="objName"/>
+            <prop refId="6" value="MCP_LIFT14_2_Level_6F" name="objName"/>
             <prop refId="9" value="null" name="in1"/>
             <prop refId="10" value="null" name="in2"/>
             <prop refId="11" value="null" name="in3"/>
@@ -571,7 +571,7 @@
             <prop refId="0" value="923926529" name="meta"/>
             <prop refId="4" value="true" name="enable"/>
             <prop refId="5" value="34" name="instanceNumber"/>
-            <prop refId="6" value="Spare" name="objName"/>
+            <prop refId="6" value="MCP_LIFT14_2_Level_7F" name="objName"/>
             <prop refId="9" value="null" name="in1"/>
             <prop refId="10" value="null" name="in2"/>
             <prop refId="11" value="null" name="in3"/>
@@ -595,7 +595,7 @@
             <prop refId="0" value="1108475905" name="meta"/>
             <prop refId="4" value="true" name="enable"/>
             <prop refId="5" value="35" name="instanceNumber"/>
-            <prop refId="6" value="Spare" name="objName"/>
+            <prop refId="6" value="MCP_LIFT14_2_Level_Lift_Status" name="objName"/>
             <prop refId="9" value="null" name="in1"/>
             <prop refId="10" value="null" name="in2"/>
             <prop refId="11" value="null" name="in3"/>
@@ -619,7 +619,7 @@
             <prop refId="0" value="1293025281" name="meta"/>
             <prop refId="4" value="true" name="enable"/>
             <prop refId="5" value="36" name="instanceNumber"/>
-            <prop refId="6" value="Spare" name="objName"/>
+            <prop refId="6" value="MCP_LIFT14_2_Level_AutoManual_Status" name="objName"/>
             <prop refId="9" value="null" name="in1"/>
             <prop refId="10" value="null" name="in2"/>
             <prop refId="11" value="null" name="in3"/>
